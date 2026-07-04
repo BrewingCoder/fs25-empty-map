@@ -1,0 +1,1407 @@
+GIANTS Engine Runtime 10.0.0 (46522) 64bit Steam (Build Date: May 28 2026)
+Copyright (c) 2008-2026, GIANTS Software GmbH (giants-software.com), All Rights Reserved.
+Copyright (c) 2003-2026, Christian Ammann and Stefan Geiger, All Rights Reserved.
+Application: FarmingSimulator2025
+PID: 15456
+Main System
+  CPU: Intel(R) Core(TM) i9-14900K
+  Virtual Cores: 32
+  Memory: 65252 MB
+  Motherboard : TUF GAMING Z790-PLUS WIFI
+  BIOS Manufacturer : American Megatrends Inc.
+  BIOS Version : 1836
+  BIOS Release Date : 04/16/2026
+  OS: Windows NT 11.0 64-bit
+[DirectStorage] Configured for base game on a SSD drive
+[DirectStorage] No GPU decompression for GDeflate
+[DirectStorage] No GPU decompression for GDeflate
+[DirectStorage] GDeflate Compression Support for 'FileQueueHigh' : DSTORAGE_COMPRESSION_SUPPORT_CPU_FALLBACK
+[DirectStorage] GDeflate Compression Support for 'FileQueueNormal' : DSTORAGE_COMPRESSION_SUPPORT_CPU_FALLBACK
+[DirectStorage] GDeflate Compression Support for 'MemoryQueueRealtime' : DSTORAGE_COMPRESSION_SUPPORT_CPU_FALLBACK
+[DirectStorage] Init success
+Physics System
+  Version: 6.3.7
+  Thread(s): 2
+Audio System
+  Driver: SoftMixer WASAPI Stereo
+  Version: 2018.11
+  Frequency: 48000
+  Max. active sources: 256
+Render System
+  Driver: Direct 3D 12
+  Card Vendor: NVIDIA Corporation
+  Renderer: NVIDIA GeForce RTX 3060 11.8GB
+  Revision: 161
+  Driver version: 32.0.15.9186
+  Driver version is up to date.
+  Hardware Feature Level : 12_1
+  DirectX 12 AgilitySDK  : 610
+  Windowed Mode : on
+  V-Sync : on
+  Allow Tearing : off
+  HDR : off
+  Validation Layer : off
+  Effective Window Size : 1600 x 900px
+  Effective Swap Chain Size : 1600 x 900px
+Started 3 threads for threadpool 'GIANTS Render threadpool'
+Hardware Profile
+  Level: Ultra (forced)
+  Recommended Window Size: 1920 x 1080px
+  UI Scaling Factor: 1.000000
+  3D Scaling Factor: 1.000000
+  View Distance Factor: 1.500000
+  LOD Distance Factor: 1.500000
+  Terrain LOD Distance Factor: 2.000000
+  Foliage View Distance Factor: 1.800000
+  Foliage LOD Distance Factor: 1.400000
+  Displacement View Distance Factor: 2.200000
+  Foliage Shadows: true
+  Volume Mesh Tesselation Factor: 0.650000
+  Tyre Track Segments Factor: 4.000000
+  Shadow Quality: 2.000000
+  Shadow Distance Quality: High
+  Allow Shadow Focus Box: true
+  Shadowmap Size: 2048
+  Shadowmap Filter Size: 16
+  Max. Number of Shadow Lights: 7
+  Shader Quality: Very High
+  Skip Mipmaps: 0
+  Texture Filtering mode: Aniso 8
+  Reflection Map Ratio: 1.000000
+  Terrain Quality: Very High
+  Max. Full Terrain Tile Rendered Per Frame: 16
+  Max. Partial Terrain Tile Rendered Per Frame: 32
+  MSAA: Off
+  Post-process AA: TAA
+  DLSS Quality: Off
+  DLSS Frame Generation: Off
+  AMD FidelityFx SR Quality: Off
+  AMD FidelityFx SR 3.0 Quality: Off
+  AMD FidelityFx SR 3.0 Frame Interpolation Mode: false
+  Intel XeSS Quality: Off
+  Intel XeSS Frame Interpolation Mode: Off
+  DRS Quality: Off
+  DRS Target FPS: 60
+  Sharpness: 1.000000
+  Max. Number of Lights: 256
+  Max. Number of Dir Lights: 4
+  Max. Number of Lights Per Cluster: 32
+  SSAO Quality: Very High
+  Bloom Quality: Very High
+  Depth-of-Field Quality: Default
+  Lensflare Quality: Off
+  Enable Texture Streaming: true
+  Enable Envmap Blending: true
+  Enable Dynamic Specular Envmap: false
+  Atmosphere Quality: Very High
+  Volumetric Fog Quality: Ultra
+  Max. Number of Volumetric Lights: 160
+  Shading Rate Quality: Very High
+  Texture Streaming Memory Budget: 4294967296
+  Texture Streaming Downgrade Delay: 5000.000000
+  Texture Streaming Target Texel-to-Pixel Ratio: 1.000000
+  Shadow Filter Quality: Shadow Buffer PCSS
+  Shadow Denoising Quality: Off
+  Intel VALAR Quality: Off
+  Intel VALAR Power Mode: Low
+  Screenspace Shadows Quality: On
+  Cloud Shadows Quality: On
+  Rain Amount Factor: 1.000000
+  Shadow Buffer Pixel Quality: 8 Bit
+  Screenspace Reflections Quality: High
+  Screenspace Reflections Upsampling Quality: High
+  Precipitation Quality: High
+  Error: Failed to read button mapping in file C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/inputDevices/HoriTruckControlWheel.xml
+Input System
+  Keyboard enabled
+  Mouse enabled
+  Gamepad/Joystick enabled
+  Force Feedback disabled
+  Devices:
+    HID Interface (VID: 046D PID: C52B VER: 0100 Cat: UNKNOWN)
+[ImageDescIndexer] Loaded 24508 imageDescs from database
+ Used Start Parameters:
+    exe x64/FarmingSimulator2025Game.exe 
+Platform: loading defaults
+Platform: loading Steam
+  Setting 'Master Volume': 0.000
+  Setting 'Is Train Tabbable': true
+  Setting 'Radio Vehicle Only': true
+  Setting 'Radio Active': false
+  Setting 'Use Colorblind Mode': false
+  Setting 'Easy Arm Control': true
+  Setting 'Show Trigger Marker': true
+  Setting 'Show Help Trigger': true
+  Setting 'Show Field-Info': true
+  Setting 'Invert Y-Look': false
+  Setting 'Show Help Icons': true
+  Setting 'Radio Volume': 0.600
+  Setting 'Vehicle Volume': 1.000
+  Setting 'Environment Volume': 0.700
+  Setting 'Character Volume': 0.700
+  Setting 'GUI Volume': 0.500
+  Setting 'Game Volume While Not In Focus': 0.000
+  Setting 'Master Volume': 0.000
+  Setting 'Music Volume': 0.450
+Farming Simulator 25 (Steam)
+  Game-Version: 1.20.0.0
+  Build-Id: b39717
+  Build-Revision: 78394
+  Available Languages: en de jp pl cz fr es ru it pt hu nl cs ct br tr ro kr ea da fi no sv fc uk vi id
+  Language: en
+  Time: 2026-07-04 13:39:02
+  ModDesc Version: 110
+  Mod Directory: C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/
+Available dlc: (Hash: 18d54def2838b78db0319dde2a01a021) (Version: 1.2.0.0) pdlc_daimlerTruckPack (Revision: 67241)
+Available dlc: (Hash: 2b9007b344aa278849cd5c98c9dd136c) (Version: 1.0.0.0) pdlc_extraContentNewHollandCR11
+ExtraContent: Unlocked 'CR11GOLD'
+Available dlc: (Hash: ad1858c65ee5e468bad78ffb67d4aa64) (Version: 1.3.1.0) pdlc_highlandsFishingPack (Revision: 76154)
+Warning: Duplicate l10n entry 'configuration_interiorCarpet' in 'D:/SteamLibrary/steamapps/common/Farming Simulator 25/pdlc/highlandsFishingPack/l10n/l10n_en.xml'. Ignoring this definition.
+Available dlc: (Hash: 51f9096799dd008e697d8a2e06d60643) (Version: 1.3.1.0) pdlc_nexatPack (Revision: 67197)
+Available dlc: (Hash: 9b6cf029e90ff4127f2d8c6d46325ff4) (Version: 1.3.0.0) pdlc_plainsAndPrairiesPack
+Available mod: (Hash: 77fbb60d5fc829f01d5f540400c33078) (Version: 1.0.0.0) FS25_40ft_Woodloader
+Available mod: (Hash: bd043361a6303752810cbba4abfcd6c8) (Version: 1.0.0.3) FS25_AmericanMidwestColdStorage
+Available mod: (Hash: bc80468b68200f3350caf34cc4e10fa6) (Version: 1.0.0.2) FS25_AmericanMidwestFertilizerShed
+Available mod: (Hash: 54009b717eb771f8584dc59a83e7d5f8) (Version: 1.0.0.5) FS25_AmericanMidwestShop
+Available mod: (Hash: 1052402977ceece03df9ad4245a3578a) (Version: 1.0.0.1) FS25_AmericanMidwestShopOffice
+Available mod: (Hash: 05db679f0e452750ec046a447b23a3cc) (Version: 1.0.0.0) FS25_AmeverFarm
+Available mod: (Hash: a2d03643e28280d0333ac902c2546651) (Version: 1.0.9.0) FS25_AustriaModding_Modern_Shed_V1_0_9
+Available mod: (Hash: 129858355f46b0ae43c720e411274326) (Version: 3.0.1.2) FS25_AutoDrive
+Available mod: (Hash: 56990a063d1e3fc3919a23ce7571ef01) (Version: 1.0.0.0) FS25_AutoDrive_parkingSheds
+Available mod: (Hash: 0e18718a85e69f22fc96bf243608c54a) (Version: 1.0.0.2) FS25_BackRoadsCounty4x
+Available mod: (Hash: aa7795fcd61ac55cfc8273aa71f6ed8d) (Version: 2.0.0.0) FS25_Balers_Pack_Whit_Windrower
+Available mod: (Hash: 99333b7ecac882d48004e7905c6a1c6e) (Version: 1.1.0.0) FS25_BarnDom
+Available mod: (Hash: 8abc7b02f7f936520f68cb704caabb67) (Version: 1.1.0.0) FS25_basicGarage
+Available mod: (Hash: d998287d523e6fd16e86ad3eca19668e) (Version: 1.3.0.7) FS25_BetterContracts
+Available mod: (Hash: 7a5f1bdec993f93ba6297dd3b519d50a) (Version: 1.1.0.1) FS25_BGAFD
+Available mod: (Hash: f5c2bfe3a76fa97bf2df2b1449bcfc74) (Version: 1.0.0.0) FS25_BigModernHouse
+Available mod: (Hash: e6e0f450dbb46fe6308beb59db9c5d49) (Version: 1.0.0.1) FS25_BigSiloPackage
+Available mod: (Hash: c2d967c72ee9cef74f2745b657cbbf31) (Version: 1.0.0.2) FS25_BigStorage
+Available mod: (Hash: b0cadc78a9ae78e1bbd839cf62859a5e) (Version: 1.0.3.0) FS25_BigXPack
+Available mod: (Hash: a56e5a224db86eeccf192d8fc2c62115) (Version: 1.0.0.0) FS25_Bio_Tank
+Available mod: (Hash: 484681d25559443ed0a2d103ada41d10) (Version: 1.1.0.1) FS25_Bredal_K165_V1_1_0_1
+Available mod: (Hash: 113923431cc9df39f04ab0b9962822f4) (Version: 1.0.0.0) FS25_BR_metal_shed
+Available mod: (Hash: 5412d8cf7a5748747048e2895c74b577) (Version: 1.0.0.0) FS25_buyingStationPack
+Available mod: (Hash: d1fc7d618a76e3632d2f7f230b75563f) (Version: 1.1.0.0) FS25_calmsden
+Available mod: (Hash: c216217adfbbf48b6f27864a510aee10) (Version: 1.1.0.0) FS25_CarGarage
+Available mod:  (Version: 1.0.0.0) FS25_CaseIH_Patriot_4350_OP
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_CaseIH_Patriot_4350_OP to use it in multiplayer.
+Available mod: (Hash: 7f7e804f42c157f3165c6ac7f0430560) (Version: 1.1.0.0) FS25_Chicken_Coop_Br
+Available mod: (Hash: f6f58dbf7c54c44d15d9fe6e4e7e94a8) (Version: 1.0.0.0) FS25_claasLiner4900
+Available mod: (Hash: 13e3daf62192ea7f00069652e6c1802b) (Version: 2.0.0.0) FS25_colossusPack
+Available mod: (Hash: e314b4d279f760626b47c28a570109b1) (Version: 8.1.0.3) FS25_Courseplay
+Available mod: (Hash: f10726c7d9502773fd0934405234283f) (Version: 1.1.0.0) FS25_Courtright_Line
+Available mod: (Hash: 577e821b6e9fa0ec9e0fe03c35fa7762) (Version: 1.0.0.2) FS25_CowBarnBig_LIZARD_Feeder_V1_0_0_2
+Available mod: (Hash: 5d29c74fefd96d29ff9d4ddbdf542986) (Version: 1.0.0.1) FS25_CowBarnXL
+Available mod: (Hash: 843e664280b5634af5ac8055aa311ff8) (Version: 1.0.0.1) FS25_CowBarnXL_V1_0_0_1
+Available mod: (Hash: cd394f984a1400dbb87ef5cda03b5a84) (Version: 1.0.0.0) FS25_Cowbarn_Pack
+Available mod: (Hash: fa9904c09e4d1f684b451be5b94070ad) (Version: 1.3.5.0) FS25_cowPasture
+Available mod: (Hash: 4cc03c964054d8ecd6221f79f1e7447e) (Version: 1.1.1.0) FS25_CustomBaleSupportPack
+Available mod: (Hash: 221766944a28712ac70a4c876afb64ec) (Version: 1.2.0.1) FS25_Dakota16x
+Available mod: (Hash: 745ebf385776e2af4375e1b67e0dbb68) (Version: 1.0.0.1) FS25_DeutzFahrSeries6TTV
+Available mod:  (Version: 1.0.0.1) FS25_DeutzFahrSeries6TTV_OP
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_DeutzFahrSeries6TTV_OP to use it in multiplayer.
+Available mod: (Hash: 5a92af9b2ad0b5e8bcb6e15b33adb96c) (Version: 1.0.0.1) FS25_DieselProduktion
+Available mod: (Hash: 8ff80ac27150840f72408191646d68a6) (Version: 1.0.0.1) FS25_DieselTank
+Available mod: (Hash: a0a1a5d57f94d6ae2fb8cc72a36b8360) (Version: 1.0.0.0) FS25_Draxmod_CowBarnBig
+dataS/character/playerAnimations/animations.i3d (103.33 ms)
+Available mod: (Hash: 51c18ad0321187bf574b3548d69f0432) (Version: 1.0.2.0) FS25_EastVinelandNJ
+dataS/character/playerAnimations/animationsVehicleCharacter.i3d (9.53 ms)
+Available mod: (Hash: 81bf2dde7f1ab70db11ff658cf834383) (Version: 1.2.0.0) FS25_EasyDevControls
+Available mod: (Hash: 95e67d5c8424da74cd8a73f580c6a040) (Version: 1.0.0.1) FS25_easyShed_pack_crossplay
+Available mod:  (Version: 1.0.0.0) FS25_Empty16x
+Available mod: (Hash: 403764206288938ee264d57e70bfb929) (Version: 1.0.0.0) FS25_farmetFantom1250Pro
+Available mod: (Hash: 5411daa5ff8ee9771cc1b1c4338cc1c8) (Version: 1.0.0.0) FS25_farmetFantom1250Pro_FMTV
+Available mod:  (Version: 0.1.0.0) FS25_FarmOrch
+Available mod: (Hash: a7d728f3be68081dcf8aa0f662c90fce) (Version: 1.0.0.0) FS25_Farm_Fuel_Station
+Available mod: (Hash: aa1323d350a345c155d44e7e7791f0d8) (Version: 1.0.1.0) FS25_Fendt_Katana_JM
+Available mod: (Hash: a95d2add62b1219e741374a69987e09e) (Version: 1.2.0.0) FS25_Fertilizer_Plant
+Available mod: (Hash: 218ede79735435d9326239c8b30c8e9b) (Version: 1.0.0.0) FS25_FlagOldBarn
+Available mod:  (Version: 1.0.0.0) FS25_Flexicoil_ST820_MultiFunction_OP
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Flexicoil_ST820_MultiFunction_OP to use it in multiplayer.
+Available mod: (Hash: 7262cb0078a112b516c7e9ba7ef31cab) (Version: 1.0.0.0) FS25_GL860_MultiPlanter
+Available mod: (Hash: f920525778e0aaab73b7953256f6682b) (Version: 1.3.0.1) FS25_Gnadenthal_crossplay
+Available mod:  (Version: 1.1.0.0) FS25_GodsThumbprint
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_GodsThumbprint to use it in multiplayer.
+Available mod: (Hash: 1782d863eafa51b718b710579701a590) (Version: 1.0.0.1) FS25_Greenhouse_With_Canned_Packaged_Foods_Production
+Available mod: (Hash: 5bf27508661172ffd5699277c8dca69d) (Version: 1.7.0.0) FS25_haweUlw4000bulk
+Available mod: (Hash: f37ab5962c65c0bcf17c403450776447) (Version: 1.2.0.1) FS25_hoermannKuhstall_XXL_V1_2_0_1
+Available mod: (Hash: 350b0654e01d967f2ff5bae5a460c17e) (Version: 1.0.0.0) FS25_Holmer_terraDos
+Available mod: (Hash: 8174a4d4e5f527c4b486c3ce67fb6abb) (Version: 1.0.0.0) FS25_Holmer_TerraDos_T4_40
+dataS/character/playerAnimations/animationsPedestrians.i3d (20.09 ms)
+Available mod:  (Version: 1.1) FS25_HuronCounty16x
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_HuronCounty16x to use it in multiplayer.
+Available mod: (Hash: c01aee2d4045b819f5ff671f9fa706cc) (Version: 1.0.0.0) FS25_IndividualLodeTrailers
+Available mod: (Hash: da6f37ec8dec11820255eff2fc1adc85) (Version: 1.0.0.1) FS25_JaguarRootHarvester_V1_0_0_1
+Available mod: (Hash: 694213024dcbda0961af1a169d1cfcc6) (Version: 1.0.0.0) FS25_John_Deere_627C
+Available mod:  (Version: 1.0.0) FS25_JuotcaBigFields16X
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_JuotcaBigFields16X to use it in multiplayer.
+Available mod:  (Version: 1.1.0.0) FS25_Kansas_Map_16x
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Kansas_Map_16x to use it in multiplayer.
+Available mod: (Hash: 17fc16af9d41cca4465698340bfd6940) (Version: 1.1.0.0) FS25_kinzeMultiFruitPlanterPack
+Available mod: (Hash: 3cb831962d07606da535c1b93698fac6) (Version: 1.0.0.1) FS25_koeckerlingVector570
+Available mod: (Hash: 41d5880d94208366fd2a710e0b4d86bc) (Version: 1.0.0.1) FS25_KroneTX560D_V1_0_0_1
+Available mod: (Hash: 1c8c49ee6a587ec4710d99f4a913107b) (Version: 1.0.0.1) FS25_Kshop
+Available mod: (Hash: e4dddbf92ce576f216fb57c3a5f09c74) (Version: 1.0.0.1) FS25_Landstal_Pack
+Available mod: (Hash: 71b6c697948f5a9c0e0e8a17ed4714e7) (Version: 1.0.0.0) FS25_largeukcowshed
+Available mod: (Hash: 88f0b9c54e649e9255b31a83c167d010) (Version: 1.0.0.0) FS25_Large_Shed
+Available mod:  (Version: 0.9.0.0) FS25_Lev_20m_StonePicker
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_20m_StonePicker to use it in multiplayer.
+Available mod:  (Version: 0.9.0.1) FS25_Lev_50m_cultiplow
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_50m_cultiplow to use it in multiplayer.
+Available mod:  (Version: 0.9.1.0) FS25_Lev_AmazoneCitan15001
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_AmazoneCitan15001 to use it in multiplayer.
+Available mod:  (Version: 0.9.0.1) FS25_Lev_AmazoneZgts10001
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_AmazoneZgts10001 to use it in multiplayer.
+Available mod:  (Version: 0.9.0.1) FS25_Lev_AutoOpenGates
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_AutoOpenGates to use it in multiplayer.
+Available mod:  (Version: 0.9.0.0) FS25_Lev_BergmannShuttle490S
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_BergmannShuttle490S to use it in multiplayer.
+Available mod:  (Version: 0.9.0.1) FS25_Lev_BigGarage
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_BigGarage to use it in multiplayer.
+Available mod:  (Version: 0.9.0.0) FS25_Lev_ClaasCargos9500
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_ClaasCargos9500 to use it in multiplayer.
+Available mod:  (Version: 1.0.0.0) FS25_Lev_DefPack
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_DefPack to use it in multiplayer.
+Available mod:  (Version: 0.9.0.0) FS25_Lev_Demco850
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_Demco850 to use it in multiplayer.
+Available mod:  (Version: 0.9.0.3) FS25_Lev_FasterGates
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_FasterGates to use it in multiplayer.
+Available mod:  (Version: 0.9.0.1) FS25_Lev_HarvesterPack
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_HarvesterPack to use it in multiplayer.
+Available mod:  (Version: 0.9.2.3) FS25_Lev_JohnDeere_8R
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_JohnDeere_8R to use it in multiplayer.
+Available mod:  (Version: 1.0.0.0) FS25_Lev_JohnDeere_DB120
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_JohnDeere_DB120 to use it in multiplayer.
+Available mod:  (Version: 0.9.0.0) FS25_Lev_JohnDeere_X9
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_JohnDeere_X9 to use it in multiplayer.
+Available mod:  (Version: 0.9.0.2) FS25_Lev_KawecoRadium255
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_KawecoRadium255 to use it in multiplayer.
+Available mod:  (Version: 0.9.0.0) FS25_Lev_LEDLights
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_LEDLights to use it in multiplayer.
+Available mod:  (Version: 0.9.0.0) FS25_Lev_MackAnthem
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_MackAnthem to use it in multiplayer.
+Available mod:  (Version: 0.9.0.0) FS25_Lev_mks32
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_mks32 to use it in multiplayer.
+Available mod:  (Version: 0.9.0.1) FS25_Lev_MoreYield
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_MoreYield to use it in multiplayer.
+Available mod:  (Version: 0.9.0.0) FS25_Lev_Rubicon9000
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_Rubicon9000 to use it in multiplayer.
+Available mod:  (Version: 0.9.2.1) FS25_Lev_TatraKipper
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_TatraKipper to use it in multiplayer.
+Available mod:  (Version: 0.9.0.2) FS25_Lev_VolvoL180H
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Lev_VolvoL180H to use it in multiplayer.
+Available mod:  (Version: 1.0.0.0) FS25_liquidstation_OP
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_liquidstation_OP to use it in multiplayer.
+Available mod: (Hash: 47e99366905476f8aa6ef0558e9b725c) (Version: 2.0.0.0) FS25_LivingShed
+Available mod: (Hash: 0d0ec9ff4e20488349423b4da9ab1611) (Version: 1.1.0.0) FS25_Lizard_Medium_Silos_Pack
+Available mod: (Hash: 8d34343fd3396b626c6d1330b6bda0a8) (Version: 1.1.0.0) FS25_ManureEvacuator
+Available mod: (Hash: 6c2fee560a7d1e4a8ea845aeed59616a) (Version: 1.0.0.1) FS25_MA_modernPigesty
+Available mod: (Hash: 14961c830e6091df47fcbd270c69d0cd) (Version: 1.1.0.0) FS25_Mega_Silo
+Available mod: (Hash: cb5c3c6a24f02e328cbb65221d9f40f8) (Version: 1.0.0.0) FS25_MetallGarage
+Available mod: (Hash: be29edfbfc079216833b79bdb93b8cd5) (Version: 1.0.0.0) FS25_MetGarage
+Available mod: (Hash: e61209ecf8be8888d7c0668ffcd22b08) (Version: 1.1.1.0) FS25_Michigan_Map
+Available mod: (Hash: 27d33ad512282f2bb2f7f13fb7ec493d) (Version: 1.1.0.0) FS25_MidwestShouse
+Available mod: (Hash: 804ec526408256da63b10a60a323c29e) (Version: 1.2.0.0) FS25_Mixer_And_Fermenter
+Available mod:  (Version: 1.0.0.0) FS25_ModernCarGarage
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_ModernCarGarage to use it in multiplayer.
+Available mod: (Hash: b4dd15e42bbb94f1e546b3858fa2904f) (Version: 1.0.0.0) FS25_Momentum24L
+Available mod: (Hash: 6254498088c2446bb2615a137283d950) (Version: 1.2.0.0) FS25_mrhCalfHuts
+Available mod: (Hash: b2446cc8eb7593c54e48481e4d5e88e8) (Version: 1.1.0.0) FS25_mrhCowBarns
+Available mod: (Hash: c73847022843ecc2afa3ae80cc883d8b) (Version: 1.0.1.0) FS25_ObjectStorages_V1_0_1
+Available mod: (Hash: 72f6e45574ee74269eb16a99e37e7e00) (Version: 1.0.0.0) FS25_Old20FootBaleTrailer_V1_0_0_2
+Available mod: (Hash: dafc30708d5f2aca6fdf8c6225021e71) (Version: 1.0.0.1) FS25_oldGrainSilo
+Available mod: (Hash: fdfdec85ae4295dfb2f427e204b45755) (Version: 1.0.0.0) FS25_OldSkoolPack
+Available mod: (Hash: fc3ece6db7f159d95a77b434e5707712) (Version: 1.0.0.0) FS25_oldUSshed
+Available mod: (Hash: 2a8ee2254a052aecb8b9c317a2cb2b01) (Version: 1.0.0.0) FS25_OpenShed
+Available mod: (Hash: fc6a62ffd4ab5eff6da66651a05273b3) (Version: 1.0.0.0) FS25_openSidesHall
+Available mod: (Hash: e7d9b891e89d1051512b1b12688265a1) (Version: 1.0.1.0) FS25_orchardsAndGreenhouses_crossplay
+Available mod: (Hash: 8507055a3d2a2bbfb93e218239dcf54b) (Version: 1.0.0.0) FS25_Orenge_BaleTrailer_Pack
+Available mod: (Hash: 3465dd3b84958c57d0b235317d01884f) (Version: 1.0.0.0) FS25_PantaiCowStable
+Available mod: (Hash: d9e90ec9c6ed8807643c3f2b0ca3f155) (Version: 1.1.0.0) FS25_PBS_cowBarnBig
+Available mod: (Hash: 2a099c44ea38ff597189ffb3116c65ad) (Version: 1.0.0.0) FS25_pdBigShed
+Available mod: (Hash: 8f10139633736ca519c23d5abf664488) (Version: 1.0.0.1) FS25_PigFattening
+Available mod: (Hash: 82cd9f67b055fd3ad6823b5d71d11a6b) (Version: 1.2.0.0) FS25_PowerTools
+Available mod: (Hash: 9fae056963fe289db300a0f9d2ffe949) (Version: 1.2.0.0) FS25_Prairie_Farm_Michigan
+Available mod: (Hash: 85a5cff99bb69faf036fd62c56a16e64) (Version: 1.0.0.0) FS25_Prestige_Super_Pull_trailers_Eagle355th
+Available mod: (Hash: d0221d8c690e0f241b79d11a3a725d31) (Version: 1.0.0.0) FS25_RsmTank
+Available mod: (Hash: abb19c8ebac47cd6b79b6eab09bda629) (Version: 1.0.0.0) FS25_SA_Pack
+Available mod: (Hash: d17c3b5aae274d5940b47fcc664213f6) (Version: 1.7.0.0) FS25_SelectableBaleCapacity
+Available mod: (Hash: 3da9f2f644d906f9f0d4417bd52098fd) (Version: 1.0.0.1) FS25_SGMultiProduction
+Available mod: (Hash: abfa235c9df83a8356011fa263dc70dc) (Version: 1.0.0.0) FS25_Slatted_Cow_Shed
+Available mod: (Hash: 0c570d81b90751a8e48e344a01aa788f) (Version: 1.0.0.0) FS25_SmallBarndominium
+Available mod: (Hash: 6045f0e01f47126ef55e5a7cc4afe6ce) (Version: 1.0.0.0) FS25_SmallMachineShed
+Available mod: (Hash: 04363cc05d23313b28a34bd4b056cbca) (Version: 1.0.0.0) FS25_SmallUsCoop
+Available mod: (Hash: 8c651b9dd151410c15a689d5a3742adf) (Version: 1.0.0.4) FS25_Smoky_Mountain_Farming
+Available mod: (Hash: 70fc58c3f770909be0c8295eed82d68f) (Version: 1.0.0.0) FS25_Special_Edition_Krone_BiggM
+Available mod: (Hash: c3ad12735483c2d31be6b13ccbc684bb) (Version: 1.0.0.1) FS25_SteelShed
+Available mod: (Hash: 8c9050881dbfd3c10d1f5ff0fe10f3bb) (Version: 1.0.0.0) FS25_Strobel_BT200
+Available mod: (Hash: e7d99cf52e1f97c86833c4be25b9dfab) (Version: 1.0.0.0) FS25_Sugarcane_BeetCart
+Available mod: (Hash: 75827ff312e1c5e6c5c7c74a87b46335) (Version: 1.2.0.0) FS25_tankerPack
+Available mod: (Hash: 95169a9b22f9971627a9892e9c076f52) (Version: 1.1.0.3) FS25_The_Shoreline_Of_Lake_Michigan
+Available mod: (Hash: bcc92e8165851a4d7542ea179bfd61da) (Version: 1.0.0.0) FS25_TigerMate255
+Available mod: (Hash: fb922e4f8aa28a703f0ce7e314025bd1) (Version: 1.0.0.0) FS25_TMR_Production_Facility
+Available mod:  (Version: 1.0.0.0) FS25_Tree_Devourer_2025
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_Tree_Devourer_2025 to use it in multiplayer.
+Available mod: (Hash: 2298444957cff5897d7506e39c31db34) (Version: 1.0.0.0) FS25_TrShed
+Available mod: (Hash: d3a4cf16524608558fc2359ff4f12b71) (Version: 1.1.1.0) FS25_UniversalAutoload
+Available mod: (Hash: de426914241b7fcdaf525773ea859cac) (Version: 1.1.0.0) FS25_USpack1
+Available mod: (Hash: 0cb526e6392dddf5888857346b8c0655) (Version: 1.0.0.0) FS25_USpack2
+Available mod: (Hash: 5e564597fcb74eb4889e13fda0db7c88) (Version: 1.0.0.0) FS25_UsShed
+Available mod: (Hash: 2f9346072b2b0d6659730f8b1ef093a8) (Version: 1.0.0.0) FS25_US_CowBarn
+Available mod: (Hash: 3872300b1400a31d31667fbde32f5877) (Version: 1.0.0.0) FS25_US_MediumVectorCowBarn
+Available mod: (Hash: a88de78ea16ef1c366d90c7ca3d4db21) (Version: 1.0.0.0) FS25_VenceTudo_BocudaEagle24
+Available mod: (Hash: baafde3d83d8d803107c935da4d70de7) (Version: 17.5.25) FS25_Wasserturm_by_Torakin
+Available mod:  (Version: 0.1.1.4) FS25_WestEnd
+Warning: Duplicate l10n entry 'fillType_onion' in 'C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_WestEnd/translations/l10n_en.xml'. Ignoring this definition.
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_WestEnd to use it in multiplayer.
+Available mod: (Hash: e87fe63707a5ea4015eeeeb8dace4411) (Version: 0.1.1.4) FS25_WestEnd_props
+Available mod: (Hash: 7cea4b6ab139ec9039121307a4c1f949) (Version: 1.1.0.0) FS25_wideGarage
+Available mod: (Hash: 4f6a61aa8d0d39cac8af711ddcd953d6) (Version: 1.0.0.1) FS25_wideSlide
+Available mod:  (Version: 1.9.0.0) FS25_WildWest_16x
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS25_WildWest_16x to use it in multiplayer.
+Available mod: (Hash: d10cde877110f1f9764f371a16784216) (Version: 1.0.0.0) FS25_wilsonPacesetter
+Available mod: (Hash: adbb72f7e6c3b6b4fa916c527b3e83fa) (Version: 1.0.0.0) FS25_woodLoader
+Available mod: (Hash: 5445e78000fdf4191885a6972b1831c8) (Version: 1.0.0.0) JohnDeereSpreader
+2026-07-04 13:44:23.859   Info: Starting singleplayer game...
+2026-07-04 13:44:23.891   Info: Loaded "vehicle" specializations
+2026-07-04 13:44:23.901   Info: Loaded "placeable" specializations
+2026-07-04 13:44:23.902   Info: Loaded "handTool" specializations
+2026-07-04 13:44:23.908   Loaded vehicle types
+2026-07-04 13:44:23.909   Loaded placeable types
+2026-07-04 13:44:23.909   Loaded handTool types
+2026-07-04 13:44:23.910   Info:   Loaded construction brush types
+2026-07-04 13:44:23.911   Load mod: FS25_AmericanMidwestColdStorage
+2026-07-04 13:44:23.911   Load mod: FS25_AmericanMidwestFertilizerShed
+2026-07-04 13:44:23.911   Load mod: FS25_AmericanMidwestShop
+2026-07-04 13:44:23.911   Load mod: FS25_BigStorage
+2026-07-04 13:44:23.912   Load mod: FS25_Chicken_Coop_Br
+2026-07-04 13:44:23.912   Load mod: FS25_Kansas_Map_16x
+2026-07-04 13:44:23.912   Load mod: FS25_Kshop
+2026-07-04 13:44:23.912   Load mod: FS25_Mega_Silo
+2026-07-04 13:44:23.912   Load mod: FS25_mrhCowBarns
+2026-07-04 13:44:23.912   Load mod: FS25_openSidesHall
+2026-07-04 13:44:23.912   Load mod: FS25_pdBigShed
+2026-07-04 13:44:23.912   Load mod: FS25_PigFattening
+2026-07-04 13:44:23.912   Load mod: FS25_TrShed
+2026-07-04 13:44:23.912   Load mod: FS25_UsShed
+2026-07-04 13:44:23.912   Load mod: FS25_wideSlide
+2026-07-04 13:44:23.983   Register configuration 'baseColor'
+2026-07-04 13:44:23.983   Register configuration 'vehicleType'
+2026-07-04 13:44:23.983   Register configuration 'component'
+2026-07-04 13:44:23.983   Register configuration 'design'
+2026-07-04 13:44:23.983   Register configuration 'designColor'
+2026-07-04 13:44:23.983   Register configuration 'design2'
+2026-07-04 13:44:23.983   Register configuration 'designColor2'
+2026-07-04 13:44:23.983   Register configuration 'design3'
+2026-07-04 13:44:23.983   Register configuration 'designColor3'
+2026-07-04 13:44:23.983   Register configuration 'design4'
+2026-07-04 13:44:23.983   Register configuration 'designColor4'
+2026-07-04 13:44:23.983   Register configuration 'design5'
+2026-07-04 13:44:23.983   Register configuration 'designColor5'
+2026-07-04 13:44:23.983   Register configuration 'design6'
+2026-07-04 13:44:23.983   Register configuration 'designColor6'
+2026-07-04 13:44:23.983   Register configuration 'design7'
+2026-07-04 13:44:23.983   Register configuration 'designColor7'
+2026-07-04 13:44:23.983   Register configuration 'design8'
+2026-07-04 13:44:23.983   Register configuration 'designColor8'
+2026-07-04 13:44:23.983   Register configuration 'design9'
+2026-07-04 13:44:23.983   Register configuration 'designColor9'
+2026-07-04 13:44:23.983   Register configuration 'design10'
+2026-07-04 13:44:23.983   Register configuration 'designColor10'
+2026-07-04 13:44:23.983   Register configuration 'design11'
+2026-07-04 13:44:23.983   Register configuration 'designColor11'
+2026-07-04 13:44:23.983   Register configuration 'design12'
+2026-07-04 13:44:23.983   Register configuration 'designColor12'
+2026-07-04 13:44:23.983   Register configuration 'design13'
+2026-07-04 13:44:23.983   Register configuration 'designColor13'
+2026-07-04 13:44:23.983   Register configuration 'design14'
+2026-07-04 13:44:23.983   Register configuration 'designColor14'
+2026-07-04 13:44:23.983   Register configuration 'design15'
+2026-07-04 13:44:23.983   Register configuration 'designColor15'
+2026-07-04 13:44:23.983   Register configuration 'design16'
+2026-07-04 13:44:23.983   Register configuration 'designColor16'
+2026-07-04 13:44:24.028   Register configuration 'color'
+2026-07-04 13:44:24.030   Register configuration 'ai'
+2026-07-04 13:44:24.030   Register configuration 'animation'
+2026-07-04 13:44:24.030 data/shared/ai/trafficCollision.i3d (0.26 ms)
+2026-07-04 13:44:24.031   Register configuration 'inputAttacherJoint'
+2026-07-04 13:44:24.032   Register configuration 'attacherJoint'
+2026-07-04 13:44:24.033   Register configuration 'automaticArmControlForwarder'
+2026-07-04 13:44:24.033   Register configuration 'automaticArmControlHarvester'
+2026-07-04 13:44:24.036   Register configuration 'baler'
+2026-07-04 13:44:24.036   Register workAreaType 'BALER'
+2026-07-04 13:44:24.049   Register configuration 'wrappingColor'
+2026-07-04 13:44:24.049   Register configuration 'wrappingAnimation'
+2026-07-04 13:44:24.051   Register configuration 'multipleItemPurchaseAmount'
+2026-07-04 13:44:24.051   Register workAreaType 'COMBINECHOPPER'
+2026-07-04 13:44:24.051   Register workAreaType 'COMBINESWATH'
+2026-07-04 13:44:24.060   Register configuration 'consumable'
+2026-07-04 13:44:24.060   Register configuration 'consumable2'
+2026-07-04 13:44:24.061   Register configuration 'cover'
+2026-07-04 13:44:24.062   Register workAreaType 'CULTIVATOR'
+2026-07-04 13:44:24.063   Register workAreaType 'CUTTER'
+2026-07-04 13:44:24.063   Register workAreaType 'HAULMDROP'
+2026-07-04 13:44:24.065   Register configuration 'cylindered'
+2026-07-04 13:44:24.068   Register configuration 'dischargeable'
+2026-07-04 13:44:24.075   Register configuration 'enterablePassenger'
+2026-07-04 13:44:24.077   Register configuration 'fillUnit'
+2026-07-04 13:44:24.082   Register configuration 'fillVolume'
+2026-07-04 13:44:24.082   Register configuration 'folding'
+2026-07-04 13:44:24.082   Register workAreaType 'FORAGEWAGON'
+2026-07-04 13:44:24.085   Register configuration 'frontloader'
+2026-07-04 13:44:24.085   Register workAreaType 'FRUITPREPARER'
+2026-07-04 13:44:24.085   Register configuration 'groundAdjustedNode'
+2026-07-04 13:44:24.085   Register configuration 'handToolHolder'
+2026-07-04 13:44:24.091   Register configuration 'liftableAxle'
+2026-07-04 13:44:24.091   Register configuration 'beaconLight'
+2026-07-04 13:44:24.092   Register configuration 'logGrab'
+2026-07-04 13:44:24.094   Register configuration 'motor'
+2026-07-04 13:44:24.104   Register workAreaType 'MULCHER'
+2026-07-04 13:44:24.106   Register workAreaType 'MOWER'
+2026-07-04 13:44:24.109   Register configuration 'pipe'
+2026-07-04 13:44:24.110   Register configuration 'plow'
+2026-07-04 13:44:24.110   Register workAreaType 'PLOW'
+2026-07-04 13:44:24.110   Register workAreaType 'PLOWSHARE'
+2026-07-04 13:44:24.111   Register configuration 'powerConsumer'
+2026-07-04 13:44:24.114   Register workAreaType 'RIDGEFORMER'
+2026-07-04 13:44:24.114   Register configuration 'ridgeMarker'
+2026-07-04 13:44:24.114   Register workAreaType 'RIDGEMARKER'
+2026-07-04 13:44:24.114   Register configuration 'roller'
+2026-07-04 13:44:24.114   Register workAreaType 'ROLLER'
+2026-07-04 13:44:24.115   Register workAreaType 'SALTSPREADER'
+2026-07-04 13:44:24.117   Register configuration 'slopeCompensation'
+2026-07-04 13:44:24.118   Register workAreaType 'SOWINGMACHINE'
+2026-07-04 13:44:24.119   Register workAreaType 'SPRAYER'
+2026-07-04 13:44:24.125   Register workAreaType 'STONEPICKER'
+2026-07-04 13:44:24.129   Register workAreaType 'STUMPCUTTER'
+2026-07-04 13:44:24.133   Register workAreaType 'TEDDER'
+2026-07-04 13:44:24.135   Register configuration 'tensionBelts'
+2026-07-04 13:44:24.136   Register configuration 'trailer'
+2026-07-04 13:44:24.137   Register configuration 'treeSaplingType'
+2026-07-04 13:44:24.142   Register configuration 'variableWorkWidth'
+2026-07-04 13:44:24.142   Register configuration 'vineCutter'
+2026-07-04 13:44:24.143   Register workAreaType 'WEEDER'
+2026-07-04 13:44:24.143   Register configuration 'wheel'
+2026-07-04 13:44:24.143   Register configuration 'rimColor'
+2026-07-04 13:44:24.148   Register configuration 'winch'
+2026-07-04 13:44:24.150   Register workAreaType 'WINDROWER'
+2026-07-04 13:44:24.152   Register configuration 'woodContainer'
+2026-07-04 13:44:24.157   Register workAreaType 'DEFAULT'
+2026-07-04 13:44:24.157   Register workAreaType 'AUXILIARY'
+2026-07-04 13:44:24.157   Register configuration 'workArea'
+2026-07-04 13:44:24.158   Register configuration 'workMode'
+2026-07-04 13:44:24.168   Register configuration 'incomePerHour'
+2026-07-04 13:44:24.168   Register configuration 'solarPanels'
+2026-07-04 13:44:24.168   Register configuration 'dogHouse'
+2026-07-04 13:44:24.168   Register configuration 'bunkerSilo'
+2026-07-04 13:44:24.168   Register configuration 'productionPoint'
+2026-07-04 13:44:24.168   Register configuration 'milk'
+2026-07-04 13:44:24.308 data/shared/assets/marker/navigationMarker.i3d (9.64 ms)
+2026-07-04 13:44:25.735   Info: Loading ConnectionHoses from 'data/shared/connectionHoses/connectionHoses.xml'
+2026-07-04 13:44:25.751 data/shared/connectionHoses/hoses.i3d (16.33 ms)
+2026-07-04 13:44:25.755 data/shared/connectionHoses/connectors.i3d (3.18 ms)
+2026-07-04 13:44:25.755 data/shared/connectionHoses/hoseMaterialHolder.i3d (0.16 ms)
+2026-07-04 13:44:25.756 data/shared/connectionHoses/electricType2/electricType2.i3d (1.36 ms)
+2026-07-04 13:44:25.758 data/objects/consumables/baleNet/baleNet.i3d (2.26 ms)
+2026-07-04 13:44:25.760 data/objects/consumables/baleTwine/baleTwine.i3d (1.51 ms)
+2026-07-04 13:44:25.763 data/objects/consumables/baleWrap/raniPlast/raniPlast.i3d (3.00 ms)
+2026-07-04 13:44:25.777 data/objects/riceSaplings/saplingBox/saplingBox.i3d (14.38 ms)
+2026-07-04 13:44:25.780 data/effects/unload/particle/potato/potato.i3d (0.61 ms)
+2026-07-04 13:44:25.780 data/effects/unload/particle/sugarBeet/sugarBeet.i3d (0.41 ms)
+2026-07-04 13:44:25.780 data/effects/unload/particle/beetroot/beetroot.i3d (0.45 ms)
+2026-07-04 13:44:25.781 data/effects/unload/particle/carrot/carrot.i3d (0.37 ms)
+2026-07-04 13:44:25.781 data/effects/unload/particle/parsnip/parsnip.i3d (0.35 ms)
+2026-07-04 13:44:25.848   Info: Loaded fruit type 'WHEAT' from 'data/foliage/wheat/wheat.xml'
+2026-07-04 13:44:25.848   Info: Loaded fruit type 'BARLEY' from 'data/foliage/barley/barley.xml'
+2026-07-04 13:44:25.848   Info: Loaded fruit type 'CANOLA' from 'data/foliage/canola/canola.xml'
+2026-07-04 13:44:25.848   Info: Loaded fruit type 'OAT' from 'data/foliage/oat/oat.xml'
+2026-07-04 13:44:25.849   Info: Loaded fruit type 'MAIZE' from 'data/foliage/maize/maize.xml'
+2026-07-04 13:44:25.849   Info: Loaded fruit type 'SUNFLOWER' from 'data/foliage/sunflower/sunflower.xml'
+2026-07-04 13:44:25.849   Info: Loaded fruit type 'SOYBEAN' from 'data/foliage/soybean/soybean.xml'
+2026-07-04 13:44:25.849   Info: Loaded fruit type 'POTATO' from 'data/foliage/potato/potato.xml'
+2026-07-04 13:44:25.850   Info: Loaded fruit type 'RICE' from 'data/foliage/rice/rice.xml'
+2026-07-04 13:44:25.850   Info: Loaded fruit type 'RICELONGGRAIN' from 'data/foliage/riceLongGrain/riceLongGrain.xml'
+2026-07-04 13:44:25.850   Info: Loaded fruit type 'SUGARBEET' from 'data/foliage/sugarbeet/sugarbeet.xml'
+2026-07-04 13:44:25.850   Info: Loaded fruit type 'SUGARCANE' from 'data/foliage/sugarcane/sugarcane.xml'
+2026-07-04 13:44:25.850   Info: Loaded fruit type 'COTTON' from 'data/foliage/cotton/cotton.xml'
+2026-07-04 13:44:25.850   Info: Loaded fruit type 'SORGHUM' from 'data/foliage/sorghum/sorghum.xml'
+2026-07-04 13:44:25.851   Info: Loaded fruit type 'GRAPE' from 'data/foliage/grape/grape.xml'
+2026-07-04 13:44:25.851   Info: Loaded fruit type 'OLIVE' from 'data/foliage/olive/olive.xml'
+2026-07-04 13:44:25.851   Info: Loaded fruit type 'POPLAR' from 'data/foliage/poplar/poplar.xml'
+2026-07-04 13:44:25.852   Info: Loaded fruit type 'BEETROOT' from 'data/foliage/beetRoot/beetRoot.xml'
+2026-07-04 13:44:25.852   Info: Loaded fruit type 'CARROT' from 'data/foliage/carrot/carrot.xml'
+2026-07-04 13:44:25.852   Info: Loaded fruit type 'PARSNIP' from 'data/foliage/parsnip/parsnip.xml'
+2026-07-04 13:44:25.852   Info: Loaded fruit type 'GREENBEAN' from 'data/foliage/greenBean/greenBean.xml'
+2026-07-04 13:44:25.852   Info: Loaded fruit type 'PEA' from 'data/foliage/pea/pea.xml'
+2026-07-04 13:44:25.853   Info: Loaded fruit type 'SPINACH' from 'data/foliage/spinach/spinach.xml'
+2026-07-04 13:44:25.853   Info: Loaded fruit type 'GRASS' from 'data/foliage/grass/grass.xml'
+2026-07-04 13:44:25.853   Info: Loaded fruit type 'OILSEEDRADISH' from 'data/foliage/oilseedRadish/oilseedRadish.xml'
+2026-07-04 13:44:25.853   Info: Loaded fruit type 'SILAGEMAIZE' from 'C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/foliage/silageMaize/silageMaize.xml'
+2026-07-04 13:44:25.853   Info: Loaded fruit type 'RYE' from 'C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/foliage/rye/rye.xml'
+2026-07-04 13:44:25.853   Info: Loaded fruit type 'TRITICALE' from 'C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/foliage/triticale/triticale.xml'
+2026-07-04 13:44:25.853   Info: Loaded fruit type 'SPELT' from 'C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/foliage/spelt/spelt.xml'
+2026-07-04 13:44:25.853   Info: Loaded fruit type 'VETCHRYE' from 'C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/foliage/vetchRye/vetchRye.xml'
+2026-07-04 13:44:25.853   Info: Loaded fruit type 'GREENRYE' from 'C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/foliage/greenRye/greenRye.xml'
+2026-07-04 13:44:25.853   Info: Loaded fruit type 'FIELDGRASS' from 'C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/foliage/fieldGrass/fieldGrass.xml'
+2026-07-04 13:44:26.403 data/objects/bales/roundbales/roundbale125/roundbale125.i3d (490.46 ms)
+2026-07-04 13:44:26.421   Info: resetSplitShapes()
+2026-07-04 13:44:26.434 data/objects/bales/roundbales/roundbale150/roundbale150.i3d (30.86 ms)
+2026-07-04 13:44:26.438 data/sky/sky.i3d (0.66 ms)
+2026-07-04 13:44:26.440   Info: Loading map: C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/map.i3d
+2026-07-04 13:44:26.464 data/objects/bales/roundbales/roundbale180/roundbale180.i3d (29.99 ms)
+2026-07-04 13:44:26.485 data/objects/bales/roundbales/cotton/cottonBale238.i3d (21.38 ms)
+2026-07-04 13:44:26.510 data/objects/bales/roundbales/biomass/biomassBale125.i3d (24.58 ms)
+2026-07-04 13:44:26.541 data/objects/bales/squarebales/squarebale240/squarebale240.i3d (31.84 ms)
+2026-07-04 13:44:26.566 data/objects/bales/squarebales/squarebale220/squarebale220.i3d (24.93 ms)
+2026-07-04 13:44:26.593 data/objects/bales/squarebales/squarebale180/squarebale180.i3d (26.92 ms)
+2026-07-04 13:44:26.619 data/objects/bales/squarebales/squarebale120/squarebale120.i3d (25.73 ms)
+2026-07-04 13:44:26.629 data/objects/bales/squarebales/squarebale120/packedSquareBale120.i3d (10.18 ms)
+2026-07-04 13:44:26.637 data/objects/bales/squarebales/cotton/cottonSquarebale488.i3d (7.67 ms)
+2026-07-04 13:44:26.637 dataS/character/npc/npcBase.i3d (0.09 ms)
+2026-07-04 13:44:26.695 dataS/character/playerM/playerM.i3d (57.87 ms)
+2026-07-04 13:44:26.741 dataS/character/playerF/playerF.i3d (45.94 ms)
+2026-07-04 13:44:26.743 data/shared/alphabet/fontMaterialHolder.i3d (2.76 ms)
+2026-07-04 13:44:26.748 data/sky/rain.i3d (3.66 ms)
+2026-07-04 13:44:26.748 data/sky/hail.i3d (0.32 ms)
+2026-07-04 13:44:26.748 data/sky/snow.i3d (0.30 ms)
+2026-07-04 13:44:26.748 data/sky/dust.i3d (0.18 ms)
+2026-07-04 13:44:26.756 data/sky/twister.i3d (7.20 ms)
+2026-07-04 13:44:34.089 SparseDensityMap at 000001B1CD353260 [Initial state after loading]
+2026-07-04 13:44:34.089  - Sparseness 0 / 4194304 [max 65535]
+2026-07-04 13:44:34.089  - Compressed bytes : 0KB
+2026-07-04 13:44:34.198 New Terrain (compressed heightmap) resolution 16384; tile size 128
+2026-07-04 13:44:37.780 data/placeables/mapUS/grainElevatorMuseum/grainElevatorMuseum.i3d (122.74 ms)
+2026-07-04 13:44:37.799 data/maps/mapUS/textures/props/donationBox.i3d (19.14 ms)
+2026-07-04 13:44:37.810 data/maps/textures/shared/props/woodContainerCart.i3d (10.47 ms)
+2026-07-04 13:44:37.837 data/maps/mapUS/textures/props/trashcanStorage02.i3d (26.54 ms)
+2026-07-04 13:44:37.847 data/maps/mapUS/textures/props/trafficCone.i3d (10.36 ms)
+2026-07-04 13:44:37.858 data/maps/textures/shared/props/boardStack02/boardStack02.i3d (9.86 ms)
+2026-07-04 13:44:37.865 data/maps/textures/shared/props/boardStack02/boardStack01.i3d (7.37 ms)
+2026-07-04 13:44:37.873 data/maps/mapEU/textures/props/wheelBarrow01.i3d (7.95 ms)
+2026-07-04 13:44:37.881 data/maps/mapAS/textures/props/barrel04.i3d (7.29 ms)
+2026-07-04 13:44:37.889 data/placeables/brandless/lightsResidential/streetLight03/streetLight03.i3d (7.83 ms)
+2026-07-04 13:44:37.949 data/maps/mapUS/textures/buildings/ropeMakerShed/ropeMakerShed.i3d (59.50 ms)
+2026-07-04 13:44:37.967 data/maps/textures/shared/props/industrialProps/container23.i3d (18.24 ms)
+2026-07-04 13:44:37.985 data/maps/mapAS/textures/props/pipes/pipes07.i3d (17.49 ms)
+2026-07-04 13:44:37.993 data/maps/mapAS/textures/props/pipes/pipes06.i3d (7.87 ms)
+2026-07-04 13:44:38.012 data/maps/mapUS/textures/props/electricConnection02.i3d (19.37 ms)
+2026-07-04 13:44:38.035 data/maps/mapAS/textures/props/cablesElectricity/cable03.i3d (20.40 ms)
+2026-07-04 13:44:38.054 data/placeables/brandless/lightsResidential/fluorescentLight01/fluorescentLight01.i3d (18.27 ms)
+2026-07-04 13:44:38.072 data/maps/mapUS/textures/props/concreteStopper.i3d (18.27 ms)
+2026-07-04 13:44:38.080 data/maps/mapUS/textures/props/hydrant02.i3d (7.42 ms)
+2026-07-04 13:44:38.103 data/maps/textures/shared/props/grassPatches/grassPatch05.i3d (21.74 ms)
+2026-07-04 13:44:38.112 data/maps/mapUS/textures/props/hydrant04.i3d (8.00 ms)
+2026-07-04 13:44:38.120 data/maps/mapUS/textures/props/garbageCartGreen.i3d (7.41 ms)
+2026-07-04 13:44:38.140 data/maps/mapEU/textures/props/bicycle04.i3d (19.99 ms)
+2026-07-04 13:44:38.158 data/maps/mapEU/textures/props/bicycleStand.i3d (17.83 ms)
+2026-07-04 13:44:38.166 data/placeables/mapUS/sellingPoints/sellingStationVehicles/sellingStationVehicles.i3d (7.94 ms)
+2026-07-04 13:44:38.273 data/maps/mapUS/textures/buildings/animalTrader/animalTrader.i3d (107.14 ms)
+2026-07-04 13:44:38.282 data/maps/mapAS/textures/props/pipes/pipes03.i3d (8.40 ms)
+2026-07-04 13:44:38.290 data/maps/mapAS/textures/props/pipes/pipes05.i3d (7.60 ms)
+2026-07-04 13:44:38.319 data/maps/textures/shared/props/industrialProps/container08.i3d (29.59 ms)
+2026-07-04 13:44:38.328 data/maps/textures/shared/props/industrialProps/container05.i3d (8.20 ms)
+2026-07-04 13:44:38.335 data/maps/textures/shared/props/industrialProps/container02.i3d (7.39 ms)
+2026-07-04 13:44:38.385 data/maps/mapAS/textures/props/airConditioner02.i3d (49.72 ms)
+2026-07-04 13:44:38.393 data/maps/textures/shared/props/industrialProps/container18.i3d (7.97 ms)
+2026-07-04 13:44:38.401 data/maps/mapUS/textures/props/foodPantry01.i3d (8.01 ms)
+2026-07-04 13:44:38.408 data/maps/mapAS/textures/props/foodCartProps/garbageCan.i3d (7.33 ms)
+2026-07-04 13:44:38.417 data/maps/mapUS/textures/props/waterPumpSmall.i3d (8.26 ms)
+2026-07-04 13:44:38.426 data/maps/mapAS/textures/props/harborAreaSet/bollard.i3d (8.83 ms)
+2026-07-04 13:44:38.433 data/maps/mapAS/textures/props/harborAreaSet/anchor.i3d (7.39 ms)
+2026-07-04 13:44:38.441 data/maps/mapAS/textures/props/pallet03.i3d (7.59 ms)
+2026-07-04 13:44:38.451 data/maps/mapUS/textures/props/cratePacking01.i3d (9.34 ms)
+2026-07-04 13:44:38.458 data/maps/mapAS/textures/props/canister.i3d (7.25 ms)
+2026-07-04 13:44:38.465 data/maps/mapAS/textures/props/foodCartProps/cartonBox.i3d (6.92 ms)
+2026-07-04 13:44:38.472 data/maps/mapAS/textures/props/jarLarge/jarLarge01.i3d (7.10 ms)
+2026-07-04 13:44:38.482 data/maps/mapUS/textures/props/garbageContainerSmall.i3d (7.97 ms)
+2026-07-04 13:44:38.595 data/placeables/shared/buyingStations/buyingStationLiquidManure/buyingStationLiquidManure.i3d (111.10 ms)
+2026-07-04 13:44:38.627 data/placeables/shared/buyingStations/buyingStationManure/buyingStationManure.i3d (31.94 ms)
+2026-07-04 13:44:38.642 data/shared/assets/marker/markerIconAnimals.i3d (8.15 ms)
+2026-07-04 13:44:38.713 data/placeables/shared/sellingStationGeneric/sellingStationProducts.i3d (71.29 ms)
+2026-07-04 13:44:38.751 data/placeables/brandless/limeStation/limeStation.i3d (38.86 ms)
+2026-07-04 13:44:38.762 data/placeables/mapUS/sellingPoints/gasStation/gasStation.i3d (10.43 ms)
+2026-07-04 13:44:38.814 data/placeables/mapUS/farmHouse01/farmHouse01.i3d (52.18 ms)
+2026-07-04 13:44:38.836 data/maps/mapUS/textures/props/paperboat.i3d (20.45 ms)
+2026-07-04 13:44:38.857 data/maps/mapUS/textures/props/flowerPot02.i3d (21.09 ms)
+2026-07-04 13:44:38.958 data/maps/mapUS/textures/props/porchSwing02.i3d (101.27 ms)
+2026-07-04 13:44:38.968 data/maps/mapUS/textures/props/trashcan01.i3d (8.80 ms)
+2026-07-04 13:44:38.976 data/maps/mapUS/textures/props/trashcan03.i3d (8.26 ms)
+2026-07-04 13:44:39.009 data/maps/mapUS/textures/props/flowerPot04.i3d (22.67 ms)
+2026-07-04 13:44:39.018 data/maps/mapUS/textures/props/flowerpot01.i3d (8.15 ms)
+2026-07-04 13:44:39.027 data/maps/mapAS/textures/props/terraceFurniture/terraceFurniture08.i3d (7.91 ms)
+2026-07-04 13:44:39.052 data/maps/mapAS/textures/props/boxesPlastic/boxPlastic03.i3d (24.86 ms)
+2026-07-04 13:44:39.071 data/maps/mapUS/textures/props/gardenFountainStand.i3d (10.67 ms)
+2026-07-04 13:44:39.078 data/maps/mapUS/textures/props/woodenBank.i3d (7.70 ms)
+2026-07-04 13:44:39.098 data/maps/mapUS/textures/props/gardenTireSwing.i3d (19.30 ms)
+2026-07-04 13:44:39.106 data/maps/mapAS/textures/props/harborAreaSet/tireBuoy.i3d (7.95 ms)
+2026-07-04 13:44:39.125 data/maps/mapUS/textures/props/flowerPot03.i3d (19.28 ms)
+2026-07-04 13:44:39.146 data/maps/mapUS/textures/props/gardenBedRing01.i3d (21.02 ms)
+2026-07-04 13:44:39.265 data/placeables/planET/bga1mw/bga1mw_mixers.i3d (100.53 ms)
+2026-07-04 13:44:39.291 data/placeables/planET/bgaBunkerSilo/bgaBunkerSilo.i3d (26.03 ms)
+2026-07-04 13:44:39.352 data/placeables/brandless/weighingStations/weighingStationLarge/weighingStationLarge.i3d (61.28 ms)
+2026-07-04 13:44:39.377 data/placeables/planET/bga1mw/bga1mwPipeAreaLoad.i3d (24.21 ms)
+2026-07-04 13:44:39.628 data/maps/mapAS/textures/props/barrierStone/barrierStone02.i3d (19.58 ms)
+2026-07-04 13:44:39.700 data/placeables/mapUS/bakeryUS/bakeryUS.i3d (63.52 ms)
+2026-07-04 13:44:39.712 data/placeables/brandless/lightsResidential/fluorescentLight02/fluorescentLight02.i3d (9.98 ms)
+2026-07-04 13:44:39.757 data/placeables/mapUS/cannedPackagedFactoryUS/cannedPackagedFactoryUS.i3d (44.02 ms)
+2026-07-04 13:44:39.768 data/maps/mapAS/textures/props/pallet02.i3d (11.27 ms)
+2026-07-04 13:44:39.779 data/maps/textures/shared/props/palletTruck.i3d (10.74 ms)
+2026-07-04 13:44:39.973 data/placeables/mapUS/cementFactoryUS/cementFactoryUS.i3d (37.20 ms)
+2026-07-04 13:44:39.985 data/maps/textures/shared/props/boardStack01/boardPlankLong.i3d (7.57 ms)
+2026-07-04 13:44:39.992 data/maps/textures/shared/props/boardStack01/barBeamLong.i3d (7.32 ms)
+2026-07-04 13:44:40.091 data/maps/mapEU/textures/props/cementMixer01.i3d (19.60 ms)
+2026-07-04 13:44:40.113 data/maps/mapUS/textures/props/railroadHut.i3d (18.80 ms)
+2026-07-04 13:44:40.168 data/placeables/mapUS/cooperUS/cooperUS.i3d (45.51 ms)
+2026-07-04 13:44:40.182 data/maps/mapAS/textures/props/rope02.i3d (9.80 ms)
+2026-07-04 13:44:40.228 data/maps/mapUS/textures/buildings/residentialBuildings/residentialBuilding14.i3d (35.16 ms)
+2026-07-04 13:44:40.334 data/placeables/mapUS/dairyUS/dairyUS.i3d (87.76 ms)
+2026-07-04 13:44:40.365 data/maps/mapEU/textures/props/lockedContainer01.i3d (20.40 ms)
+2026-07-04 13:44:40.373 data/maps/mapEU/textures/props/lockedContainer02.i3d (7.76 ms)
+2026-07-04 13:44:40.456 data/placeables/mapUS/grainFlourMillUS/grainFlourMillUS.i3d (82.57 ms)
+2026-07-04 13:44:40.504 data/placeables/mapUS/oilPlantUS/oilPlantUS.i3d (47.72 ms)
+2026-07-04 13:44:40.683 data/maps/mapAS/textures/props/rope03.i3d (13.52 ms)
+2026-07-04 13:44:40.702 data/placeables/mapUS/oilPlantUS/oilPlantUSSign.i3d (12.64 ms)
+2026-07-04 13:44:40.755 data/placeables/mapUS/ropemakerUS/ropeMakerUS.i3d (17.56 ms)
+2026-07-04 13:44:40.769 data/maps/mapUS/textures/buildings/ropeMakerShed/ropeMakerShedProps.i3d (9.95 ms)
+2026-07-04 13:44:40.783 data/placeables/brandless/constructiblesTwister/oldSmallBarn07.i3d (13.74 ms)
+2026-07-04 13:44:40.797 data/maps/mapAS/textures/props/harborAreaSet/lifeBuoy.i3d (14.03 ms)
+2026-07-04 13:44:40.834 data/maps/mapAS/textures/props/bench02.i3d (27.75 ms)
+2026-07-04 13:44:40.887 New Terrain (geometry quadtree) max resolution 32768; max tile size 64
+2026-07-04 13:44:40.962 data/placeables/mapUS/tailorUS/tailorUS.i3d (87.09 ms)
+2026-07-04 13:44:41.154 data/placeables/unia/farma/farma200/farma200_visual.i3d (32.65 ms)
+2026-07-04 13:44:41.154 data/placeables/mapUS/farmersMarketUS/farmersMarketUS.i3d (191.86 ms)
+2026-07-04 13:44:41.246 data/maps/mapEU/textures/props/noticeBoard.i3d (42.89 ms)
+2026-07-04 13:44:41.259 data/maps/mapUS/textures/props/mailDropBox.i3d (11.68 ms)
+2026-07-04 13:44:41.286 data/placeables/mapUS/decoration/windWheelMedium/windWheelMedium.i3d (24.18 ms)
+2026-07-04 13:44:41.309 data/maps/mapUS/textures/buildings/residentialBuildings/residentialBuilding05.i3d (23.58 ms)
+2026-07-04 13:44:41.345 data/maps/mapUS/textures/props/letterBox01.i3d (29.45 ms)
+2026-07-04 13:44:41.359 data/maps/mapUS/textures/props/trashcan02.i3d (13.53 ms)
+2026-07-04 13:44:41.402 data/maps/mapUS/textures/props/rockingChair.i3d (38.12 ms)
+2026-07-04 13:44:41.445 data/maps/mapUS/textures/buildings/residentialBuildings/residentialBuilding11.i3d (42.00 ms)
+2026-07-04 13:44:41.460 data/placeables/mapUS/decoration/carports/carport02.i3d (11.83 ms)
+2026-07-04 13:44:41.488 data/maps/mapUS/textures/props/letterbox07.i3d (27.74 ms)
+2026-07-04 13:44:41.504 data/maps/mapUS/textures/props/flowerPot05.i3d (12.20 ms)
+2026-07-04 13:44:41.558 data/maps/mapAS/textures/props/hangingDecoration/hangingDecoration07.i3d (29.54 ms)
+2026-07-04 13:44:41.574 data/maps/mapAS/textures/props/stoneStatues01.i3d (11.64 ms)
+2026-07-04 13:44:41.594 data/maps/mapUS/textures/buildings/residentialBuildings/residentialBuilding08.i3d (19.60 ms)
+2026-07-04 13:44:41.721 data/maps/mapEU/textures/props/gardenWell02.i3d (28.73 ms)
+2026-07-04 13:44:41.750 data/maps/mapAS/textures/props/wheelOld/wheelOld01.i3d (12.28 ms)
+2026-07-04 13:44:41.804 data/maps/mapAS/textures/props/terraceFurniture/terraceFurniture07.i3d (13.69 ms)
+2026-07-04 13:44:41.834 data/maps/mapAS/textures/props/terraceUmbrella/terraceUmbrella01.i3d (29.35 ms)
+2026-07-04 13:44:41.878 data/maps/mapUS/textures/buildings/gardenSheds/gardenShed02.i3d (44.05 ms)
+2026-07-04 13:44:41.929 data/placeables/mapUS/decoration/carports/carport01.i3d (13.27 ms)
+2026-07-04 13:44:41.945 data/maps/mapAS/textures/props/harborAreaSet/metalRing.i3d (12.76 ms)
+2026-07-04 13:44:41.994 data/maps/mapEU/textures/props/containerOffice.i3d (38.49 ms)
+2026-07-04 13:44:42.078 data/maps/mapUS/textures/buildings/grainBargeTerminal02/grainBargeTerminal02.i3d (46.38 ms)
+2026-07-04 13:44:42.108 data/maps/mapAS/textures/props/craneSmall01.i3d (12.27 ms)
+2026-07-04 13:44:42.135 data/maps/mapEU/textures/props/wheelBarrow.i3d (26.89 ms)
+2026-07-04 13:44:42.148 data/maps/mapAS/textures/props/rope04.i3d (11.59 ms)
+2026-07-04 13:44:42.191 data/maps/textures/shared/props/industrialProps/container06.i3d (11.80 ms)
+2026-07-04 13:44:42.221 data/maps/mapAS/textures/props/pallet01.i3d (25.65 ms)
+2026-07-04 13:44:42.238 data/maps/mapAS/textures/props/cablesElectricity/cable04.i3d (12.40 ms)
+2026-07-04 13:44:42.252 data/maps/mapAS/textures/props/cablesElectricity/cable10.i3d (13.91 ms)
+2026-07-04 13:44:42.264 data/maps/textures/shared/props/industrialProps/container22.i3d (12.22 ms)
+2026-07-04 13:44:42.276 data/maps/textures/shared/props/industrialProps/container09.i3d (11.54 ms)
+2026-07-04 13:44:42.288 data/maps/textures/shared/props/industrialProps/container13.i3d (12.26 ms)
+2026-07-04 13:44:42.299 data/maps/textures/shared/props/industrialProps/container14.i3d (11.16 ms)
+2026-07-04 13:44:42.310 data/maps/textures/shared/props/industrialProps/container15.i3d (11.42 ms)
+2026-07-04 13:44:42.321 data/maps/textures/shared/props/industrialProps/container21.i3d (10.94 ms)
+2026-07-04 13:44:42.491 data/placeables/mapUS/warehouseLogisticUS/warehouseLogisticUS.i3d (169.83 ms)
+2026-07-04 13:44:42.566 data/placeables/mapUS/carpenterUS/carpenterUS.i3d (70.93 ms)
+2026-07-04 13:44:42.581 data/maps/mapUS/textures/props/signOpen01.i3d (14.01 ms)
+2026-07-04 13:44:42.623 data/maps/mapUS/textures/buildings/warehouse02/warehouse02.i3d (41.21 ms)
+2026-07-04 13:44:42.797 data/placeables/mapUS/decoration/farmShedSmallOld/farmShedSmallOld.i3d (41.59 ms)
+2026-07-04 13:44:42.859 data/maps/mapUS/textures/buildings/watchTower/watchtower.i3d (62.08 ms)
+2026-07-04 13:44:42.897 data/maps/mapUS/textures/props/vintageTools/milkingStool.i3d (34.30 ms)
+2026-07-04 13:44:42.953 data/maps/mapUS/textures/buildings/waterTowers/waterTower01.i3d (42.44 ms)
+2026-07-04 13:44:42.970 data/maps/mapUS/textures/buildings/waterTowers/waterTower02.i3d (16.17 ms)
+2026-07-04 13:44:42.984 data/maps/mapUS/textures/buildings/waterTowers/waterTower03.i3d (14.86 ms)
+2026-07-04 13:44:45.833 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/map.i3d (19077.36 ms)
+2026-07-04 13:44:45.876 data/maps/mapUS/sounds/sounds.i3d (42.64 ms)
+2026-07-04 13:44:46.004 dataS/character/playerM/fullBody/fullBodyNpcQG01.i3d (128.56 ms)
+2026-07-04 13:44:46.098 dataS/character/playerM/heads/npcQG01.i3d (94.87 ms)
+2026-07-04 13:44:46.111 dataS/character/playerM/pants/botJeans.i3d (12.47 ms)
+2026-07-04 13:44:46.304 dataS/character/playerM/heads/mHead08.i3d (192.28 ms)
+2026-07-04 13:44:46.318 dataS/character/playerM/shirts/topPlaidShirt01.i3d (14.00 ms)
+2026-07-04 13:44:46.322 dataS/character/playerM/shoes/workboot01.i3d (4.83 ms)
+2026-07-04 13:44:46.359 dataS/character/playerM/hairStyles/hairStyleSideParted.i3d (36.40 ms)
+2026-07-04 13:44:46.483 dataS/character/playerM/heads/mHead04.i3d (124.44 ms)
+2026-07-04 13:44:46.492 dataS/character/playerM/shirts/topCollaredShirt01.i3d (9.13 ms)
+2026-07-04 13:44:46.496 dataS/character/playerM/attachments/headgearBallcap.i3d (3.44 ms)
+2026-07-04 13:44:46.502 dataS/character/playerM/attachments/glassesClassic.i3d (5.97 ms)
+2026-07-04 13:44:46.507 dataS/character/playerM/shoes/sneaker01.i3d (5.26 ms)
+2026-07-04 13:44:46.531 dataS/character/playerM/hairStyles/hairStyle3070.i3d (24.08 ms)
+2026-07-04 13:44:46.545 dataS/character/playerM/hairStyles/hairStyleBuzzCut01.i3d (13.85 ms)
+2026-07-04 13:44:46.579 dataS/character/playerM/heads/mHead07.i3d (33.82 ms)
+2026-07-04 13:44:46.662 dataS/character/playerM/jacket/topFarmJacketM.i3d (82.75 ms)
+2026-07-04 13:44:46.665 dataS/character/playerM/attachments/headgearVintage.i3d (3.35 ms)
+2026-07-04 13:44:46.679 dataS/character/playerM/shoes/workboot02.i3d (13.90 ms)
+2026-07-04 13:44:46.711 dataS/character/playerF/fullBody/onePieceSynthetic.i3d (32.15 ms)
+2026-07-04 13:44:46.846 dataS/character/playerF/heads/fHead01.i3d (135.09 ms)
+2026-07-04 13:44:46.862 dataS/character/playerF/shoes/galoshes.i3d (15.64 ms)
+2026-07-04 13:44:46.893 dataS/character/playerF/hairStyles/hairStyleWavy03.i3d (31.03 ms)
+2026-07-04 13:44:46.924 data/maps/mapUS/licensePlates/licensePlatesUS.i3d (30.40 ms)
+2026-07-04 13:44:46.989 data/effects/cutter/maize/maize_harvestReadyDry.i3d (65.00 ms)
+2026-07-04 13:44:47.054 data/foliage/decoFoliage/decoFoliageUS.i3d (1216.23 ms)
+2026-07-04 13:44:47.074 data/effects/cutter/sunflower/sunflower_harvestReady.i3d (86.07 ms)
+2026-07-04 13:44:47.106 data/effects/cutter/maize/maize_harvestReadyGreen.i3d (31.42 ms)
+2026-07-04 13:44:47.141 data/effects/cutter/grass/grass_greenBig.i3d (35.12 ms)
+2026-07-04 13:44:47.192 data/effects/cutter/grass/grass_harvestReady.i3d (50.61 ms)
+2026-07-04 13:44:47.242 data/effects/cutter/sunflower/sunflower_greenBig.i3d (50.72 ms)
+2026-07-04 13:44:47.293 data/effects/cutter/wheat/wheat_greenBig.i3d (49.90 ms)
+2026-07-04 13:44:47.350 data/effects/cutter/wheat/wheat_harvestReady.i3d (57.80 ms)
+2026-07-04 13:44:47.396 data/effects/cutter/barley/barley_greenBig.i3d (45.93 ms)
+2026-07-04 13:44:47.449 data/effects/cutter/barley/barley_harvestReady.i3d (53.26 ms)
+2026-07-04 13:44:47.500 data/effects/cutter/oat/oat_greenBig.i3d (50.95 ms)
+2026-07-04 13:44:47.568 data/effects/cutter/oat/oat_harvestReady.i3d (67.55 ms)
+2026-07-04 13:44:47.615 data/effects/cutter/canola/canola_greenBig.i3d (47.33 ms)
+2026-07-04 13:44:47.671 data/effects/cutter/canola/canola_harvestReady.i3d (56.04 ms)
+2026-07-04 13:44:47.713 data/effects/cutter/soybean/soybean_greenBig.i3d (42.17 ms)
+2026-07-04 13:44:47.760 data/effects/cutter/soybean/soybean_harvestReady.i3d (45.95 ms)
+2026-07-04 13:44:47.805 data/effects/cutter/sorghum/sorghum_greenBig.i3d (45.21 ms)
+2026-07-04 13:44:47.847 data/effects/cutter/sorghum/sorghum_harvestReady.i3d (42.36 ms)
+2026-07-04 13:44:47.887 data/effects/cutter/riceLongGrain/riceLongGrain_greenBig.i3d (40.51 ms)
+2026-07-04 13:44:47.916 data/effects/cutter/riceLongGrain/riceLongGrain_harvestReady.i3d (28.42 ms)
+2026-07-04 13:44:47.941 data/effects/cutter/rice/rice_greenBig.i3d (24.51 ms)
+2026-07-04 13:44:47.975 data/effects/cutter/rice/rice_harvestReady_grain.i3d (34.27 ms)
+2026-07-04 13:44:47.989 data/effects/cutter/rice/rice_harvestReady_forage.i3d (13.79 ms)
+2026-07-04 13:44:47.999 data/foliage/forestPlants/groundFoliage/groundFoliage.i3d (944.53 ms)
+2026-07-04 13:44:48.021 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/effects/cutter/rye/rye_greenBig.i3d (32.28 ms)
+2026-07-04 13:44:48.065 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/effects/cutter/rye/rye_harvestReady.i3d (44.05 ms)
+2026-07-04 13:44:48.097 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/effects/cutter/triticale/triticale_greenBig.i3d (32.05 ms)
+2026-07-04 13:44:48.139 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/effects/cutter/triticale/triticale_harvestReady.i3d (41.91 ms)
+2026-07-04 13:44:48.168 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/effects/cutter/spelt/spelt_greenBig.i3d (28.77 ms)
+2026-07-04 13:44:48.205 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/effects/cutter/spelt/spelt_harvestReady.i3d (36.51 ms)
+2026-07-04 13:44:48.244 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/effects/cutter/greenRye/greenRye_harvestReady.i3d (39.41 ms)
+2026-07-04 13:44:48.257 data/effects/cutter/maize/maize_fruits.i3d (13.41 ms)
+2026-07-04 13:44:48.275 data/effects/cutter/sunflower/sunflower_fruits.i3d (17.30 ms)
+2026-07-04 13:44:48.301 data/effects/cutter/maize/maize_threshing.i3d (26.32 ms)
+2026-07-04 13:44:48.317 data/effects/cutter/sunflower/sunflower_threshing.i3d (15.91 ms)
+2026-07-04 13:44:48.367 data/effects/fertilizer/fertilizer.i3d (50.46 ms)
+2026-07-04 13:44:48.409 data/foliage/decoBush/decoBush.i3d (408.26 ms)
+2026-07-04 13:44:48.472 data/foliage/meadow/meadowEU/meadow.i3d (62.04 ms)
+2026-07-04 13:44:48.472 Warning (performance): Foliage lod 1 mesh 'meadow' 'cutRolled' 'roller' is much larger than lod 0 mesh (min/maxY (-0.026/0.056 vs -0.019/0.029).
+2026-07-04 13:44:48.548 data/effects/chopper/strawChopper.i3d (180.54 ms)
+2026-07-04 13:44:48.581 data/effects/tedder/tedder.i3d (32.74 ms)
+2026-07-04 13:44:48.611 data/effects/topLifting/beetRoot/beetRoot_fruitsLeaves.i3d (30.06 ms)
+2026-07-04 13:44:48.621 data/foliage/grass/grass.i3d (148.63 ms)
+2026-07-04 13:44:48.621 Warning (performance): Foliage lod 1 mesh 'grass' 'cutRolled' 'roller' is much larger than lod 0 mesh (min/maxY (0.016/0.128 vs -0.127/0.044).
+2026-07-04 13:44:48.629 data/effects/topLifting/beetRoot/beetRoot_fruitsClean.i3d (17.88 ms)
+2026-07-04 13:44:48.646 data/effects/topLifting/beetRoot/beetRoot_threshing.i3d (17.93 ms)
+2026-07-04 13:44:48.670 data/effects/topLifting/carrot/carrot_fruitsLeaves.i3d (23.86 ms)
+2026-07-04 13:44:48.680 data/effects/topLifting/carrot/carrot_fruitsClean.i3d (10.05 ms)
+2026-07-04 13:44:48.698 data/effects/topLifting/carrot/carrot_threshing.i3d (17.51 ms)
+2026-07-04 13:44:48.732 data/effects/topLifting/parsnip/parsnip_fruitsLeaves.i3d (34.72 ms)
+2026-07-04 13:44:48.753 data/effects/topLifting/parsnip/parsnip_fruitsClean.i3d (20.62 ms)
+2026-07-04 13:44:48.771 data/effects/topLifting/parsnip/parsnip_threshing.i3d (18.15 ms)
+2026-07-04 13:44:48.823 data/effects/windrower/windrower.i3d (51.52 ms)
+2026-07-04 13:44:48.858 data/effects/cultivator/cultivator.i3d (35.14 ms)
+2026-07-04 13:44:48.864 data/foliage/wheat/wheat.i3d (242.46 ms)
+2026-07-04 13:44:48.890 data/effects/plow/plow.i3d (31.99 ms)
+2026-07-04 13:44:48.979 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/effects/pickup/pickupIN.i3d (88.62 ms)
+2026-07-04 13:44:48.993 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/effects/pickup/pickupOUT.i3d (13.99 ms)
+2026-07-04 13:44:49.020 data/effects/mower/mower.i3d (26.95 ms)
+2026-07-04 13:44:49.029 data/effects/mixerWagon/mixerWagon.i3d (9.49 ms)
+2026-07-04 13:44:49.038 data/foliage/canola/canola.i3d (173.92 ms)
+2026-07-04 13:44:49.052 data/effects/grape/grape_fruitsLeaves.i3d (22.91 ms)
+2026-07-04 13:44:49.064 data/effects/grape/grape_fruitsClean.i3d (12.33 ms)
+2026-07-04 13:44:49.076 data/effects/grape/grape_fruitsHarvested.i3d (11.17 ms)
+2026-07-04 13:44:49.090 data/effects/grape/grape_threshing.i3d (14.46 ms)
+2026-07-04 13:44:49.109 data/effects/grape/grape_prePruner.i3d (18.48 ms)
+2026-07-04 13:44:49.143 data/effects/olive/olive_fruitsLeaves.i3d (33.98 ms)
+2026-07-04 13:44:49.166 data/effects/olive/olive_fruitsClean.i3d (23.17 ms)
+2026-07-04 13:44:49.198 data/effects/olive/olive_threshing.i3d (32.83 ms)
+2026-07-04 13:44:49.223 data/effects/manure/manure.i3d (24.48 ms)
+2026-07-04 13:44:49.239 data/effects/stone/small/stone.i3d (15.56 ms)
+2026-07-04 13:44:49.248 data/effects/stone/medium/stone.i3d (9.04 ms)
+2026-07-04 13:44:49.256 data/effects/stone/big/stone.i3d (7.98 ms)
+2026-07-04 13:44:49.266 data/foliage/barley/barley.i3d (228.17 ms)
+2026-07-04 13:44:49.277 data/effects/wood/wood_cutter.i3d (20.82 ms)
+2026-07-04 13:44:49.295 data/effects/sugarcane/sugarcane_prepareFruit.i3d (18.63 ms)
+2026-07-04 13:44:49.317 data/effects/sugarcane/sugarcane_chopper.i3d (21.76 ms)
+2026-07-04 13:44:49.331 data/effects/sugarcane/sugarcane_chaffer.i3d (14.20 ms)
+2026-07-04 13:44:49.352 data/effects/sugarcane/sugarcane_cutter.i3d (21.13 ms)
+2026-07-04 13:44:49.380 data/effects/snow/snowPieces.i3d (27.53 ms)
+2026-07-04 13:44:49.404 data/effects/snow/snowDust.i3d (23.91 ms)
+2026-07-04 13:44:49.442 data/effects/greenbean/greenbean_beltFruitsLeaves.i3d (38.37 ms)
+2026-07-04 13:44:49.461 data/effects/greenbean/greenbean_beltFruitsClean.i3d (18.30 ms)
+2026-07-04 13:44:49.480 data/effects/greenbean/greenbean_beltLeaves.i3d (18.94 ms)
+2026-07-04 13:44:49.507 data/foliage/maize/maize.i3d (240.56 ms)
+2026-07-04 13:44:49.517 data/effects/greenbean/greenbean_threshing.i3d (37.34 ms)
+2026-07-04 13:44:49.529 data/effects/greenbean/greenbean_threshingBelt.i3d (12.28 ms)
+2026-07-04 13:44:49.737 data/foliage/potato/potato.i3d (230.15 ms)
+2026-07-04 13:44:49.764 data/foliage/potato/potatoHaulm.i3d (25.72 ms)
+2026-07-04 13:44:49.950 data/foliage/sugarbeet/sugarbeet.i3d (186.48 ms)
+2026-07-04 13:44:49.972 data/foliage/sugarbeet/sugarbeetHaulm.i3d (22.04 ms)
+2026-07-04 13:44:50.150 data/foliage/sunflower/sunflower.i3d (178.07 ms)
+2026-07-04 13:44:50.360 data/foliage/soybean/soybean.i3d (208.51 ms)
+2026-07-04 13:44:50.413 data/foliage/oilseedRadish/oilseedRadish.i3d (52.94 ms)
+2026-07-04 13:44:50.572 data/foliage/poplar/poplar.i3d (159.16 ms)
+2026-07-04 13:44:50.764 data/foliage/oat/oat.i3d (192.24 ms)
+2026-07-04 13:44:50.978 data/foliage/sugarcane/sugarcane.i3d (213.20 ms)
+2026-07-04 13:44:50.993 data/foliage/sugarcane/sugarCaneHaulm.i3d (15.21 ms)
+2026-07-04 13:44:51.269 data/foliage/cotton/cotton.i3d (275.14 ms)
+2026-07-04 13:44:51.451 data/foliage/sorghum/sorghum.i3d (182.21 ms)
+2026-07-04 13:44:51.461 data/foliage/olive/olive.i3d (9.35 ms)
+2026-07-04 13:44:51.470 data/foliage/grape/grape.i3d (8.69 ms)
+2026-07-04 13:44:51.681 data/foliage/pea/pea.i3d (211.87 ms)
+2026-07-04 13:44:51.703 data/foliage/pea/peaHaulm.i3d (21.80 ms)
+2026-07-04 13:44:51.906 data/foliage/spinach/spinach.i3d (202.27 ms)
+2026-07-04 13:44:52.099 data/foliage/parsnip/parsnip.i3d (192.17 ms)
+2026-07-04 13:44:52.117 data/foliage/parsnip/parsnipHaulm.i3d (18.54 ms)
+2026-07-04 13:44:52.302 data/foliage/beetRoot/beetRoot.i3d (183.94 ms)
+2026-07-04 13:44:52.319 data/foliage/beetRoot/beetRootHaulm.i3d (16.81 ms)
+2026-07-04 13:44:52.530 data/foliage/carrot/carrot.i3d (211.22 ms)
+2026-07-04 13:44:52.550 data/foliage/carrot/carrotHaulm.i3d (18.82 ms)
+2026-07-04 13:44:52.708 data/foliage/riceLongGrain/riceLongGrain.i3d (157.99 ms)
+2026-07-04 13:44:52.730 data/foliage/riceLongGrain/riceLongGrainHaulm.i3d (22.07 ms)
+2026-07-04 13:44:52.900 data/foliage/rice/rice.i3d (169.04 ms)
+2026-07-04 13:44:52.923 data/foliage/rice/riceHaulm.i3d (22.90 ms)
+2026-07-04 13:44:53.162 data/foliage/greenBean/greenBean.i3d (239.24 ms)
+2026-07-04 13:44:53.186 data/foliage/greenBean/greenBeanHaulm.i3d (23.99 ms)
+2026-07-04 13:44:53.434 data/foliage/decoBush/decoBushUS/decoBushUS.i3d (248.24 ms)
+2026-07-04 13:44:53.471 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/foliage/fieldGrass/fieldGrass.i3d (34.32 ms)
+2026-07-04 13:44:53.471 Warning (performance): Foliage lod 1 mesh 'fieldGrass' 'cutRolled' 'roller' is much larger than lod 0 mesh (min/maxY (-0.026/0.056 vs -0.019/0.029).
+2026-07-04 13:44:53.521 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/foliage/greenRye/greenRye.i3d (49.21 ms)
+2026-07-04 13:44:53.564 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/foliage/rye/rye.i3d (43.36 ms)
+2026-07-04 13:44:53.590 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/foliage/silageMaize/silageMaize.i3d (25.86 ms)
+2026-07-04 13:44:53.620 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/foliage/spelt/spelt.i3d (29.82 ms)
+2026-07-04 13:44:53.650 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/foliage/triticale/triticale.i3d (28.73 ms)
+2026-07-04 13:44:53.701 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/foliage/vetchRye/vetchRye.i3d (51.16 ms)
+2026-07-04 13:44:53.702 Info: transform group 'C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/data/densityMap_fruits.gdm' has elements very far out from the cell edge (79.00% expansion)
+2026-07-04 13:44:53.761 data/foliage/weed/weed.i3d (58.92 ms)
+2026-07-04 13:44:53.804 data/foliage/stone/stone.i3d (42.19 ms)
+2026-07-04 13:44:56.099 FoliageTransformGroup 'C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/data/densityMap_fruits.gdm' may need space for up to 11625984 instances (3456 per cell x 3364 cells)
+2026-07-04 13:44:56.125 FoliageTransformGroup 'C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/data/densityMap_weed.gdm' may need space for up to 627200 instances (512 per cell x 1225 cells)
+2026-07-04 13:44:56.133 FoliageTransformGroup 'C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/data/densityMap_stones.gdm' may need space for up to 819200 instances (512 per cell x 1600 cells)
+2026-07-04 13:45:00.584 dataS/character/playerM/heads/npcQG01FacialAnim.i3d (18.47 ms)
+2026-07-04 13:45:00.596 dataS/character/playerM/heads/mHead08FacialAnim.i3d (11.40 ms)
+2026-07-04 13:45:00.606 dataS/character/playerM/heads/mHead04FacialAnim.i3d (9.87 ms)
+2026-07-04 13:45:00.624 dataS/character/playerM/heads/mHead07FacialAnim.i3d (17.36 ms)
+2026-07-04 13:45:00.634 dataS/character/playerF/heads/fHead01FacialAnim.i3d (10.33 ms)
+2026-07-04 13:45:00.709 data/effects/cultivator/particle/soilParticle.i3d (75.27 ms)
+2026-07-04 13:45:00.753 data/effects/cultivator/cultivatorMeshes_materialHolder.i3d (43.89 ms)
+2026-07-04 13:45:00.802 data/effects/slurry/slurryEffects_materialHolder.i3d (48.64 ms)
+2026-07-04 13:45:00.854 data/effects/unload/unloadMeshes_materialHolder.i3d (52.50 ms)
+2026-07-04 13:45:00.881 data/effects/unload/unloadParticles_materialHolder.i3d (27.25 ms)
+2026-07-04 13:45:00.894 data/effects/unload/unloadParticles.i3d (12.63 ms)
+2026-07-04 13:45:00.905 data/effects/smoke/smokeParticles.i3d (11.14 ms)
+2026-07-04 13:45:00.916 data/effects/smoke/smokeParticles_materialHolder.i3d (10.49 ms)
+2026-07-04 13:45:00.937 data/effects/smoke/industrial/smokeParticles.i3d (21.16 ms)
+2026-07-04 13:45:00.955 data/effects/wheel/wheelParticles.i3d (18.49 ms)
+2026-07-04 13:45:00.972 data/effects/bees/beesParticles.i3d (17.10 ms)
+2026-07-04 13:45:00.985 data/effects/horse/horseStepParticleSystem.i3d (13.15 ms)
+2026-07-04 13:45:00.997 data/effects/sprayer/particle/washer.i3d (11.40 ms)
+2026-07-04 13:45:01.040 data/effects/sprayer/sprayerMeshes_materialHolder.i3d (43.67 ms)
+2026-07-04 13:45:01.079 data/effects/sprayCan/sprayCan_materialHolder.i3d (38.22 ms)
+2026-07-04 13:45:01.091 data/effects/sprayCan/particle/sprayCan.i3d (11.96 ms)
+2026-07-04 13:45:01.110 data/effects/leveler/levelerMeshes_materialHolder.i3d (19.65 ms)
+2026-07-04 13:45:01.168 data/effects/wood/particle/forestry.i3d (56.91 ms)
+2026-07-04 13:45:01.284 data/effects/belt/beltMeshes_materialHolder.i3d (116.52 ms)
+2026-07-04 13:45:01.308 data/effects/potato/particle/potato.i3d (24.33 ms)
+2026-07-04 13:45:01.330 data/effects/sugarBeet/particle/sugarBeet.i3d (21.52 ms)
+2026-07-04 13:45:01.348 data/effects/cotton/particle/cotton.i3d (17.87 ms)
+2026-07-04 13:45:01.384 data/effects/stone/particle/stone.i3d (36.74 ms)
+2026-07-04 13:45:01.407 data/effects/hydraulicHammer/particle/debris.i3d (22.43 ms)
+2026-07-04 13:45:01.426 data/effects/hydraulicHammer/particle/smoke.i3d (19.30 ms)
+2026-07-04 13:45:01.436 data/effects/hydraulicHammer/particle/smokeDestroy.i3d (9.58 ms)
+2026-07-04 13:45:01.443 data/effects/smoke/train/smokeMainParticles.i3d (6.88 ms)
+2026-07-04 13:45:01.449 data/effects/smoke/train/smokeSideParticles.i3d (5.92 ms)
+2026-07-04 13:45:01.537 data/shared/materialHolders/tensionBelts/tensionBeltMaterialHolder.i3d (87.91 ms)
+2026-07-04 13:45:01.570 data/shared/materialHolders/tireTrackMaterialHolder.i3d (33.49 ms)
+2026-07-04 13:45:01.587 data/fillPlanes/fillPlane_materialHolder.i3d (17.21 ms)
+2026-07-04 13:45:01.629 data/shared/materialHolders/waterSimulationMaterialHolder.i3d (41.63 ms)
+2026-07-04 13:45:03.644 Virtual Texture initialized at 33554432 x 33554432 resolution
+2026-07-04 13:45:03.888   Warning (beltMeshes_materialHolder|beltOnionDirt_materialHolder (7)): Unknown fillType "ONION" in user attribute 'fillType' for "MaterialUtil.onCreateMaterial"
+2026-07-04 13:45:03.888   Warning (beltMeshes_materialHolder|beltOnionClean_materialHolder (8)): Unknown fillType "ONION" in user attribute 'fillType' for "MaterialUtil.onCreateMaterial"
+2026-07-04 13:45:03.913 dataS/character/playerM/heads/npcQG01FacialAnimExpressions.i3d (16.74 ms)
+2026-07-04 13:45:03.933 dataS/character/playerM/heads/mHead08FacialAnimExpressions.i3d (20.16 ms)
+2026-07-04 13:45:03.954 dataS/character/playerM/heads/mHead04FacialAnimExpressions.i3d (20.14 ms)
+2026-07-04 13:45:03.974 dataS/character/playerM/heads/mHead07FacialAnimExpressions.i3d (20.47 ms)
+2026-07-04 13:45:03.997 dataS/character/playerF/heads/fHead01FacialAnimExpressions.i3d (22.59 ms)
+2026-07-04 13:45:39.532   Info: Unable to find color configuration 'SHARED_WHITE2' for object 'C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_pdBigShed/bigGarage.xml'. Using config '1' instead.
+2026-07-04 13:45:39.532   Info: Unable to find color configuration 'CASEIH_RED1' for object 'C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_PigFattening/xml/pigFattening.xml'. Using config '1' instead.
+2026-07-04 13:45:39.532   Info: Unable to find color configuration 'SHARED_WHITE2' for object 'C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_wideSlide/wideSlide.xml'. Using config '1' instead.
+2026-07-04 13:45:39.532   Info: Unable to find color configuration 'SHARED_WHITE2' for object 'C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_wideSlide/wideSlide.xml'. Using config '1' instead.
+2026-07-04 13:45:39.532   Info: Unable to find color configuration 'CASEIH_RED1' for object 'C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_wideSlide/wideSlide.xml'. Using config '1' instead.
+2026-07-04 13:45:39.734 data/shared/ai/fieldCourseVisuals.i3d (230.00 ms)
+2026-07-04 13:45:39.747 data/shared/assets/marker/markerIconSleep.i3d (13.82 ms)
+2026-07-04 13:45:39.758 data/shared/assets/marker/markerIconWardrobe.i3d (10.88 ms)
+2026-07-04 13:45:39.798 data/placeables/mapUS/farmHouse01/farmHouse01Props.i3d (39.33 ms)
+2026-07-04 13:45:39.806 data/shared/assets/lights/lizard/buildings/industrialLight03.i3d (8.94 ms)
+2026-07-04 13:45:39.814 data/shared/assets/marker/markerIconLoad.i3d (7.53 ms)
+2026-07-04 13:45:39.822 data/shared/assets/marker/markerIconUnload.i3d (7.53 ms)
+2026-07-04 13:45:39.833 data/shared/assets/marker/markerIconWrench.i3d (11.58 ms)
+2026-07-04 13:45:39.884 data/maps/textures/shared/props/industrialProps/container22.i3d (0.95 ms)
+2026-07-04 13:45:39.887 data/maps/mapAS/textures/props/cablesElectricity/cable03.i3d (1.07 ms)
+2026-07-04 13:45:39.888 data/maps/mapAS/textures/props/cablesElectricity/cable04.i3d (1.33 ms)
+2026-07-04 13:45:39.889 data/maps/textures/shared/props/industrialProps/container05.i3d (0.89 ms)
+2026-07-04 13:45:39.890 data/maps/textures/shared/props/industrialProps/container23.i3d (0.67 ms)
+2026-07-04 13:45:39.891 data/maps/textures/shared/props/industrialProps/container21.i3d (0.76 ms)
+2026-07-04 13:45:39.904 data/maps/mapAS/textures/props/pipes/pipes02.i3d (12.83 ms)
+2026-07-04 13:45:39.905 data/maps/mapAS/textures/props/pipes/pipes03.i3d (0.68 ms)
+2026-07-04 13:45:39.905 data/maps/mapAS/textures/props/pipes/pipes05.i3d (0.69 ms)
+2026-07-04 13:45:39.906 data/maps/mapAS/textures/props/pipes/pipes06.i3d (0.64 ms)
+2026-07-04 13:45:39.907 data/maps/mapAS/textures/props/pipes/pipes07.i3d (0.66 ms)
+2026-07-04 13:45:39.908 data/maps/mapAS/textures/props/airConditioner02.i3d (1.30 ms)
+2026-07-04 13:45:39.916 data/maps/textures/shared/props/industrialProps/container16.i3d (8.14 ms)
+2026-07-04 13:45:39.918 data/maps/mapAS/textures/props/pallet03.i3d (1.17 ms)
+2026-07-04 13:45:39.919 data/maps/mapAS/textures/props/barrel04.i3d (0.71 ms)
+2026-07-04 13:45:39.938 data/maps/mapAS/textures/props/cartBig.i3d (19.35 ms)
+2026-07-04 13:45:39.939 data/maps/mapAS/textures/props/jarLarge/jarLarge01.i3d (0.71 ms)
+2026-07-04 13:45:39.947 data/maps/mapAS/textures/props/barrel03.i3d (8.30 ms)
+2026-07-04 13:45:39.951 data/maps/textures/shared/props/industrialProps/container15.i3d (0.80 ms)
+2026-07-04 13:45:39.960 data/maps/textures/shared/props/industrialProps/container07.i3d (8.30 ms)
+2026-07-04 13:45:39.961 data/maps/textures/shared/props/industrialProps/container14.i3d (0.86 ms)
+2026-07-04 13:45:39.961 data/maps/textures/shared/props/industrialProps/container06.i3d (0.77 ms)
+2026-07-04 13:45:39.964 data/maps/textures/shared/props/industrialProps/container08.i3d (1.14 ms)
+2026-07-04 13:45:39.966 data/placeables/mapUS/cannedPackagedFactoryUS/cannedPackagedFactoryUSProps.i3d (132.37 ms)
+2026-07-04 13:45:39.986 data/placeables/shared/sellingStationGeneric/sellingStationGenericNoCoverWideGrid.i3d (19.67 ms)
+2026-07-04 13:45:39.993 data/shared/assets/marker/markerIconBales.i3d (7.48 ms)
+2026-07-04 13:45:40.000 data/shared/assets/marker/markerIconWater.i3d (7.19 ms)
+2026-07-04 13:45:40.032 data/placeables/mapUS/decoration/waterPumpTowerOld/waterPumpTowerOld.i3d (32.20 ms)
+2026-07-04 13:45:40.040 data/shared/assets/marker/markerIconPallet.i3d (7.23 ms)
+2026-07-04 13:45:40.056 data/placeables/shared/sellingStationGeneric/sellingStationGenericNoCover.i3d (16.59 ms)
+2026-07-04 13:45:40.067 data/maps/mapAS/textures/props/cablesElectricity/cable03.i3d (1.01 ms)
+2026-07-04 13:45:40.067 data/maps/mapAS/textures/props/pipes/pipes06.i3d (0.67 ms)
+2026-07-04 13:45:40.068 data/maps/textures/shared/props/industrialProps/container02.i3d (0.77 ms)
+2026-07-04 13:45:40.083 data/placeables/mapUS/farmersMarketUS/farmersMarketUSProps.i3d (26.99 ms)
+2026-07-04 13:45:40.108 data/maps/textures/shared/props/industrialProps/container23.i3d (0.72 ms)
+2026-07-04 13:45:40.109 data/maps/mapAS/textures/props/pipes/pipes07.i3d (0.64 ms)
+2026-07-04 13:45:40.109 data/maps/mapAS/textures/props/pipes/pipes06.i3d (0.64 ms)
+2026-07-04 13:45:40.111 data/maps/textures/shared/props/industrialProps/container08.i3d (1.06 ms)
+2026-07-04 13:45:40.112 data/maps/textures/shared/props/industrialProps/container18.i3d (0.99 ms)
+2026-07-04 13:45:40.112 data/maps/textures/shared/props/industrialProps/container13.i3d (0.72 ms)
+2026-07-04 13:45:40.114 data/maps/mapAS/textures/props/airConditioner02.i3d (1.31 ms)
+2026-07-04 13:45:40.114 data/maps/textures/shared/props/industrialProps/container21.i3d (0.79 ms)
+2026-07-04 13:45:40.115 data/maps/textures/shared/props/industrialProps/container15.i3d (0.72 ms)
+2026-07-04 13:45:40.123 data/maps/textures/shared/props/industrialProps/container20.i3d (8.09 ms)
+2026-07-04 13:45:40.125 data/maps/textures/shared/props/industrialProps/container22.i3d (0.88 ms)
+2026-07-04 13:45:40.129 data/maps/mapAS/textures/props/pipes/pipes03.i3d (0.80 ms)
+2026-07-04 13:45:40.138 data/maps/mapAS/textures/props/pipes/pipes04.i3d (9.63 ms)
+2026-07-04 13:45:40.139 data/maps/mapAS/textures/props/pipes/pipes05.i3d (0.73 ms)
+2026-07-04 13:45:40.149 data/maps/textures/shared/props/boardStack02/boardStack02Board.i3d (8.11 ms)
+2026-07-04 13:45:40.150 data/maps/mapAS/textures/props/pipes/pipes02.i3d (0.74 ms)
+2026-07-04 13:45:40.151 data/maps/textures/shared/props/industrialProps/container06.i3d (0.76 ms)
+2026-07-04 13:45:40.152 data/maps/mapAS/textures/props/pallet03.i3d (1.18 ms)
+2026-07-04 13:45:40.153 data/maps/mapAS/textures/props/jarLarge/jarLarge01.i3d (0.66 ms)
+2026-07-04 13:45:40.161 data/maps/mapAS/textures/props/cartonBoxes/cartonBox03.i3d (7.92 ms)
+2026-07-04 13:45:40.169 data/maps/mapAS/textures/props/cartonBoxes/cartonBox01.i3d (7.83 ms)
+2026-07-04 13:45:40.169 data/maps/textures/shared/props/industrialProps/container02.i3d (0.80 ms)
+2026-07-04 13:45:40.178 data/maps/textures/shared/props/industrialProps/container04.i3d (8.88 ms)
+2026-07-04 13:45:40.178 data/placeables/mapUS/oilPlantUS/oilPlantUSProps.i3d (95.31 ms)
+2026-07-04 13:45:40.202 data/effects/chimneySmoke/smokeTrailSubUV.i3d (23.63 ms)
+2026-07-04 13:45:40.230 data/shared/assets/lights/terraLed/fluorescentTube50W.i3d (27.95 ms)
+2026-07-04 13:45:40.246 data/maps/textures/shared/props/industrialProps/container23.i3d (0.82 ms)
+2026-07-04 13:45:40.257 data/maps/mapAS/textures/props/airConditioner.i3d (11.76 ms)
+2026-07-04 13:45:40.259 data/maps/mapAS/textures/props/airConditioner02.i3d (1.47 ms)
+2026-07-04 13:45:40.260 data/maps/textures/shared/props/industrialProps/container21.i3d (0.87 ms)
+2026-07-04 13:45:40.260 data/maps/textures/shared/props/industrialProps/container15.i3d (0.73 ms)
+2026-07-04 13:45:40.272 data/maps/mapAS/textures/props/cablesElectricity/cable07.i3d (8.63 ms)
+2026-07-04 13:45:40.272 data/maps/mapAS/textures/props/pipes/pipes07.i3d (0.44 ms)
+2026-07-04 13:45:40.273 data/maps/mapAS/textures/props/pipes/pipes06.i3d (0.53 ms)
+2026-07-04 13:45:40.273 data/placeables/mapUS/bakeryUS/bakeryUSProps.i3d (43.19 ms)
+2026-07-04 13:45:40.281 data/shared/assets/marker/markerIconShopping.i3d (7.72 ms)
+2026-07-04 13:45:40.310 data/maps/textures/shared/props/industrialProps/container03.i3d (9.00 ms)
+2026-07-04 13:45:40.311 data/maps/textures/shared/props/industrialProps/container22.i3d (1.01 ms)
+2026-07-04 13:45:40.319 data/maps/textures/shared/props/industrialProps/container05.i3d (0.58 ms)
+2026-07-04 13:45:40.320 data/maps/textures/shared/props/industrialProps/container02.i3d (0.41 ms)
+2026-07-04 13:45:40.320 data/maps/mapAS/textures/props/pipes/pipes06.i3d (0.40 ms)
+2026-07-04 13:45:40.322 data/maps/textures/shared/props/industrialProps/container13.i3d (0.51 ms)
+2026-07-04 13:45:40.323 data/maps/textures/shared/props/industrialProps/container18.i3d (0.88 ms)
+2026-07-04 13:45:40.324 data/maps/textures/shared/props/industrialProps/container23.i3d (0.42 ms)
+2026-07-04 13:45:40.325 data/maps/mapAS/textures/props/pipes/pipes03.i3d (0.71 ms)
+2026-07-04 13:45:40.326 data/maps/mapAS/textures/props/pallet03.i3d (1.13 ms)
+2026-07-04 13:45:40.327 data/maps/mapAS/textures/props/pipes/pipes07.i3d (0.58 ms)
+2026-07-04 13:45:40.327 data/maps/mapAS/textures/props/cartonBoxes/cartonBox03.i3d (0.34 ms)
+2026-07-04 13:45:40.328 data/maps/mapAS/textures/props/pallet01.i3d (0.64 ms)
+2026-07-04 13:45:40.329 data/maps/textures/shared/props/industrialProps/container21.i3d (0.71 ms)
+2026-07-04 13:45:40.330 data/maps/textures/shared/props/industrialProps/container09.i3d (0.74 ms)
+2026-07-04 13:45:40.331 data/maps/textures/shared/props/industrialProps/container06.i3d (0.72 ms)
+2026-07-04 13:45:40.331 data/maps/textures/shared/props/industrialProps/container20.i3d (0.63 ms)
+2026-07-04 13:45:40.331 data/placeables/mapUS/warehouseLogisticUS/warehouseLogisticUSProps.i3d (50.24 ms)
+2026-07-04 13:45:40.341 data/maps/textures/shared/props/industrialProps/container23.i3d (0.69 ms)
+2026-07-04 13:45:40.342 data/maps/mapAS/textures/props/pipes/pipes06.i3d (0.61 ms)
+2026-07-04 13:45:40.342 data/maps/mapAS/textures/props/pipes/pipes07.i3d (0.62 ms)
+2026-07-04 13:45:40.349 data/placeables/mapUS/tailorUS/tailorUSProps.i3d (17.87 ms)
+2026-07-04 13:45:40.372 data/maps/textures/shared/props/industrialProps/container23.i3d (0.62 ms)
+2026-07-04 13:45:40.375 data/maps/mapAS/textures/props/cablesElectricity/cable03.i3d (1.03 ms)
+2026-07-04 13:45:40.379 data/placeables/mapUS/cooperUS/cooperUSProps.i3d (29.96 ms)
+2026-07-04 13:45:40.398 data/maps/mapAS/textures/props/barrel02.i3d (8.54 ms)
+2026-07-04 13:45:40.399 data/maps/mapAS/textures/props/cablesElectricity/cable03.i3d (0.99 ms)
+2026-07-04 13:45:40.400 data/maps/mapAS/textures/props/cablesElectricity/cable07.i3d (1.14 ms)
+2026-07-04 13:45:40.410 data/maps/mapAS/textures/props/cablesElectricity/cable08.i3d (9.75 ms)
+2026-07-04 13:45:40.410 data/maps/textures/shared/props/industrialProps/container02.i3d (0.59 ms)
+2026-07-04 13:45:40.411 data/maps/textures/shared/props/industrialProps/container23.i3d (0.59 ms)
+2026-07-04 13:45:40.412 data/maps/textures/shared/props/industrialProps/container05.i3d (0.93 ms)
+2026-07-04 13:45:40.412 data/maps/textures/shared/props/industrialProps/container07.i3d (0.49 ms)
+2026-07-04 13:45:40.413 data/maps/textures/shared/props/industrialProps/container16.i3d (0.44 ms)
+2026-07-04 13:45:40.415 data/maps/mapAS/textures/props/pallet03.i3d (1.01 ms)
+2026-07-04 13:45:40.415 data/maps/mapAS/textures/props/pipes/pipes03.i3d (0.66 ms)
+2026-07-04 13:45:40.416 data/maps/mapAS/textures/props/pipes/pipes06.i3d (0.61 ms)
+2026-07-04 13:45:40.417 data/maps/mapAS/textures/props/pipes/pipes07.i3d (0.60 ms)
+2026-07-04 13:45:40.421 data/placeables/mapUS/grainFlourMillUS/grainFlourMillUSProps.i3d (42.09 ms)
+2026-07-04 13:45:40.435 data/placeables/shared/sellingStationGeneric/sellingStationGenericMedium.i3d (13.46 ms)
+2026-07-04 13:45:40.465 data/maps/textures/shared/props/industrialProps/container02.i3d (0.89 ms)
+2026-07-04 13:45:40.466 data/maps/textures/shared/props/industrialProps/container03.i3d (1.06 ms)
+2026-07-04 13:45:40.467 data/maps/textures/shared/props/industrialProps/container23.i3d (0.69 ms)
+2026-07-04 13:45:40.468 data/maps/textures/shared/props/industrialProps/container05.i3d (0.74 ms)
+2026-07-04 13:45:40.468 data/maps/textures/shared/props/industrialProps/container06.i3d (0.60 ms)
+2026-07-04 13:45:40.469 data/maps/textures/shared/props/industrialProps/container07.i3d (0.59 ms)
+2026-07-04 13:45:40.470 data/maps/textures/shared/props/industrialProps/container09.i3d (0.48 ms)
+2026-07-04 13:45:40.470 data/maps/textures/shared/props/industrialProps/container13.i3d (0.64 ms)
+2026-07-04 13:45:40.471 data/maps/textures/shared/props/industrialProps/container15.i3d (0.65 ms)
+2026-07-04 13:45:40.471 data/maps/textures/shared/props/industrialProps/container16.i3d (0.53 ms)
+2026-07-04 13:45:40.481 data/maps/textures/shared/props/industrialProps/container17.i3d (9.54 ms)
+2026-07-04 13:45:40.482 data/maps/textures/shared/props/industrialProps/container21.i3d (0.77 ms)
+2026-07-04 13:45:40.483 data/maps/mapAS/textures/props/pipes/pipes07.i3d (0.66 ms)
+2026-07-04 13:45:40.483 data/maps/mapAS/textures/props/pipes/pipes06.i3d (0.63 ms)
+2026-07-04 13:45:40.484 data/maps/mapAS/textures/props/pipes/pipes03.i3d (0.71 ms)
+2026-07-04 13:45:40.486 data/maps/mapAS/textures/props/pipes/pipes05.i3d (0.34 ms)
+2026-07-04 13:45:40.488 data/maps/mapAS/textures/props/pallet03.i3d (0.83 ms)
+2026-07-04 13:45:40.490 data/maps/mapUS/textures/props/trashcan02.i3d (1.57 ms)
+2026-07-04 13:45:40.511 data/placeables/mapUS/dairyUS/dairyUSProps.i3d (76.36 ms)
+2026-07-04 13:45:40.519 data/shared/assets/marker/markerIconExclamationMark.i3d (8.13 ms)
+2026-07-04 13:45:40.532 data/maps/textures/shared/props/industrialProps/container21.i3d (0.80 ms)
+2026-07-04 13:45:40.533 data/maps/textures/shared/props/industrialProps/container23.i3d (0.66 ms)
+2026-07-04 13:45:40.540 data/maps/textures/shared/props/industrialProps/container22.i3d (0.96 ms)
+2026-07-04 13:45:40.544 data/maps/mapAS/textures/props/airConditioner02.i3d (1.33 ms)
+2026-07-04 13:45:40.545 data/maps/mapAS/textures/props/airConditioner.i3d (1.18 ms)
+2026-07-04 13:45:40.545 data/maps/mapAS/textures/props/pipes/pipes07.i3d (0.63 ms)
+2026-07-04 13:45:40.546 data/maps/mapAS/textures/props/pipes/pipes05.i3d (0.64 ms)
+2026-07-04 13:45:40.547 data/maps/mapAS/textures/props/pipes/pipes06.i3d (0.58 ms)
+2026-07-04 13:45:40.548 data/maps/textures/shared/props/industrialProps/container05.i3d (0.80 ms)
+2026-07-04 13:45:40.548 data/maps/textures/shared/props/industrialProps/container18.i3d (0.95 ms)
+2026-07-04 13:45:40.549 data/maps/textures/shared/props/industrialProps/container14.i3d (0.67 ms)
+2026-07-04 13:45:40.550 data/maps/mapAS/textures/props/pipes/pipes03.i3d (0.70 ms)
+2026-07-04 13:45:40.550 data/maps/mapAS/textures/props/pipes/pipes02.i3d (0.62 ms)
+2026-07-04 13:45:40.551 data/maps/textures/shared/props/industrialProps/container16.i3d (0.63 ms)
+2026-07-04 13:45:40.553 data/maps/mapAS/textures/props/cablesElectricity/cable07.i3d (0.79 ms)
+2026-07-04 13:45:40.554 data/maps/mapAS/textures/props/cablesElectricity/cable03.i3d (0.97 ms)
+2026-07-04 13:45:40.556 data/maps/textures/shared/props/industrialProps/container13.i3d (0.76 ms)
+2026-07-04 13:45:40.557 data/maps/textures/shared/props/industrialProps/container09.i3d (0.79 ms)
+2026-07-04 13:45:40.558 data/maps/textures/shared/props/industrialProps/container02.i3d (0.71 ms)
+2026-07-04 13:45:40.559 data/placeables/mapUS/carpenterUS/carpenterUSProps.i3d (39.86 ms)
+2026-07-04 13:45:40.568 data/shared/assets/lights/lizard/buildings/industrialLight05.i3d (8.67 ms)
+2026-07-04 13:45:40.638 data/shared/assets/lights/lizard/buildings/industrialLight04.i3d (70.00 ms)
+2026-07-04 13:45:40.646 data/placeables/mapUS/sellingPoints/grainRiverSilo01Triggers/grainRiverSilo01Triggers.i3d (7.76 ms)
+2026-07-04 13:45:40.653 data/placeables/mapUS/sellingPoints/grainBargeTerminal01Triggers/grainBargeTerminal01Triggers.i3d (7.44 ms)
+2026-07-04 13:45:40.653 data/placeables/shared/sellingStationGeneric/sellingStationProducts.i3d (0.32 ms)
+2026-07-04 13:45:40.661 data/placeables/mapUS/sellingPoints/grainBargeTerminal02Triggers/grainBargeTerminal02Triggers.i3d (7.90 ms)
+2026-07-04 13:45:40.738 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_TrShed/basicGarage.i3d (77.43 ms)
+2026-07-04 13:45:40.824 data/maps/textures/shared/props/motorex/motorexOilBarrel.i3d (18.03 ms)
+2026-07-04 13:45:40.826 data/maps/mapUS/textures/props/flowerPot05.i3d (0.76 ms)
+2026-07-04 13:45:40.836 data/maps/mapUS/textures/props/flowerPot06.i3d (8.19 ms)
+2026-07-04 13:45:40.873 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_pdBigShed/bigGarage.i3d (134.05 ms)
+2026-07-04 13:45:40.942 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_UsShed/MetalGarage.i3d (69.68 ms)
+2026-07-04 13:45:41.028 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_AmericanMidwestColdStorage/coldStorage.i3d (85.86 ms)
+2026-07-04 13:45:41.072 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_openSidesHall/openSidesHall.i3d (44.31 ms)
+2026-07-04 13:45:41.240 data/maps/textures/shared/props/palletTruck.i3d (0.51 ms)
+2026-07-04 13:45:41.247 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_AmericanMidwestFertilizerShed/FertShed.i3d (174.26 ms)
+2026-07-04 13:45:41.269 data/placeables/meridian/fuelTank25000L/fuelTank25000L.i3d (22.06 ms)
+2026-07-04 13:45:41.378 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_BigStorage/storage.i3d (109.31 ms)
+2026-07-04 13:45:41.455 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Mega_Silo/farmSiloBig.i3d (76.73 ms)
+2026-07-04 13:45:41.561 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kshop/storage.i3d (106.06 ms)
+2026-07-04 13:45:41.983 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_mrhCowBarns/cowBarnBig.i3d (421.64 ms)
+2026-07-04 13:45:42.411 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_PigFattening/i3d/pigFattening.i3d (428.18 ms)
+2026-07-04 13:45:42.498 data/placeables/rudolfHormann/sheepBarnBig/sheepBarnBig.i3d (86.57 ms)
+2026-07-04 13:45:42.584 data/maps/mapAS/textures/props/cartonBoxes/cartonBox03.i3d (0.38 ms)
+2026-07-04 13:45:42.585 data/maps/mapAS/textures/props/cartonBoxes/cartonBox01.i3d (0.34 ms)
+2026-07-04 13:45:42.585 data/maps/mapAS/textures/props/jarLarge/jarLarge01.i3d (0.56 ms)
+2026-07-04 13:45:42.596 data/maps/mapAS/textures/props/boxesPlastic/boxPlastic02.i3d (10.85 ms)
+2026-07-04 13:45:42.604 data/maps/mapAS/textures/props/foodCartProps/waterBottle.i3d (8.17 ms)
+2026-07-04 13:45:42.605 data/maps/mapEU/textures/props/wheelBarrow01.i3d (0.87 ms)
+2026-07-04 13:45:42.608 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Chicken_Coop_Br/aviario_br.i3d (111.06 ms)
+2026-07-04 13:45:42.903 data/maps/mapUS/textures/props/trashcan02.i3d (0.42 ms)
+2026-07-04 13:45:42.903 data/maps/textures/shared/props/motorex/motorexOilBarrel.i3d (0.22 ms)
+2026-07-04 13:45:42.904 data/maps/mapUS/textures/props/flowerPot06.i3d (0.35 ms)
+2026-07-04 13:45:42.904 data/maps/mapUS/textures/props/flowerPot05.i3d (0.58 ms)
+2026-07-04 13:45:42.905 data/maps/mapUS/textures/props/gardenBedRing01.i3d (0.28 ms)
+2026-07-04 13:45:42.910 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_AmericanMidwestShop/midWorkshop.i3d (300.94 ms)
+2026-07-04 13:45:42.956 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_wideSlide/wideSlide.i3d (46.43 ms)
+2026-07-04 13:45:43.036 data/vehicles/krone/collect900_3/collect900_3.i3d (79.88 ms)
+2026-07-04 13:45:43.309 data/shared/assets/extinguisherSmall02.i3d (22.93 ms)
+2026-07-04 13:45:43.309 data/vehicles/fendt/vario1000/vario1000.i3d (273.25 ms)
+2026-07-04 13:45:43.370 data/sounds/vehicles/cabin/rainInVehicle.gls version 17 (0.05 ms)
+2026-07-04 13:45:43.382 data/vehicles/fendt/vario1000/sounds/vario1000_loop.gls version 14 (0.15 ms)
+2026-07-04 13:45:43.393 data/sounds/vehicles/transmission/transmissionModern_01.gls version 15 (0.03 ms)
+2026-07-04 13:45:43.399 data/sounds/vehicles/fan/fanModern_01.gls version 15 (0.03 ms)
+2026-07-04 13:45:43.403 data/sounds/vehicles/cabin/cabin_01.gls version 14 (0.01 ms)
+2026-07-04 13:45:43.573 data/shared/assets/reflectors/lizard/bigTriangle.i3d (21.42 ms)
+2026-07-04 13:45:43.574 data/vehicles/newHolland/t8/t8.i3d (264.66 ms)
+2026-07-04 13:45:43.624 data/vehicles/newHolland/t8/sounds/t8_loop.gls version 14 (0.15 ms)
+2026-07-04 13:45:43.628 data/sounds/vehicles/transmission/transmissionModern_05.gls version 14 (0.04 ms)
+2026-07-04 13:45:43.644 data/sounds/vehicles/fan/fanModernBig_01.gls version 14 (0.10 ms)
+2026-07-04 13:45:43.757 data/shared/assets/reflectors/lizard/yellowRound_02.i3d (16.13 ms)
+2026-07-04 13:45:43.771 data/shared/assets/reflectors/lizard/bigTriangle.i3d (0.25 ms)
+2026-07-04 13:45:43.781 data/shared/assets/reflectors/lizard/redRound_02.i3d (8.67 ms)
+2026-07-04 13:45:43.797 data/vehicles/johnDeere/series8R/series8R.i3d (223.46 ms)
+2026-07-04 13:45:43.848 data/sounds/vehicles/transmission/transmissionModern_02.gls version 14 (0.04 ms)
+2026-07-04 13:45:43.853 data/vehicles/johnDeere/series8R/sounds/series8R.gls version 15 (0.17 ms)
+2026-07-04 13:45:43.987 data/shared/assets/reflectors/lizard/yellowRound_03.i3d (8.88 ms)
+2026-07-04 13:45:43.990 data/shared/assets/reflectors/lizard/bigTriangle.i3d (0.24 ms)
+2026-07-04 13:45:43.991 data/vehicles/masseyFerguson/series9S/series9S.i3d (193.56 ms)
+2026-07-04 13:45:44.020 data/vehicles/masseyFerguson/series9S/sounds/series9S_loop.gls version 14 (0.19 ms)
+2026-07-04 13:45:44.024 data/sounds/vehicles/transmission/transmissionModern_10.gls version 15 (0.07 ms)
+2026-07-04 13:45:44.122 data/shared/assets/reflectors/lizard/yellowRound_03.i3d (0.23 ms)
+2026-07-04 13:45:44.122 data/shared/assets/reflectors/lizard/yellowRound_02.i3d (0.14 ms)
+2026-07-04 13:45:44.130 data/shared/assets/reflectors/lizard/redRectangle_01.i3d (8.46 ms)
+2026-07-04 13:45:44.149 data/shared/assets/extinguisher.i3d (17.59 ms)
+2026-07-04 13:45:44.150 data/vehicles/valtra/sSeries/sSeries.i3d (159.35 ms)
+2026-07-04 13:45:44.186 data/vehicles/valtra/sSeries/sounds/sSeries_loop.gls version 14 (0.39 ms)
+2026-07-04 13:45:44.316 data/shared/assets/reflectors/lizard/redRectangle_01.i3d (0.45 ms)
+2026-07-04 13:45:44.360 data/vehicles/caseIH/puma/puma.i3d (209.44 ms)
+2026-07-04 13:45:44.399 data/vehicles/caseIH/puma/sounds/puma.gls version 14 (0.18 ms)
+2026-07-04 13:45:44.410 data/sounds/vehicles/fan/fanModern_02.gls version 14 (0.13 ms)
+2026-07-04 13:45:44.445 data/shared/assets/reflectors/lizard/redTriangle_02.i3d (7.80 ms)
+2026-07-04 13:45:44.449 data/vehicles/krone/gx520/gx520.i3d (89.93 ms)
+2026-07-04 13:45:44.532 data/shared/assets/reflectors/lizard/yellowRound_01.i3d (7.45 ms)
+2026-07-04 13:45:44.533 data/vehicles/brantner/tr34090/tr34090.i3d (83.36 ms)
+2026-07-04 13:45:44.657 data/shared/assets/reflectors/lizard/bigTriangle.i3d (0.25 ms)
+2026-07-04 13:45:44.658 data/vehicles/kverneland/pw10012/pw10012.i3d (125.29 ms)
+2026-07-04 13:45:44.723 data/shared/assets/reflectors/lizard/bigTriangle.i3d (1.08 ms)
+2026-07-04 13:45:44.725 data/vehicles/summersMfg/superChisel/superChisel.i3d (66.50 ms)
+2026-07-04 13:45:44.839 data/vehicles/vaderstad/nzExtreme1425/nzExtreme1425.i3d (114.38 ms)
+2026-07-04 13:45:45.023 data/shared/assets/reflectors/lizard/yellowRound_01.i3d (0.19 ms)
+2026-07-04 13:45:45.038 data/shared/assets/reflectors/lizard/redRound_01.i3d (13.17 ms)
+2026-07-04 13:45:45.042 data/shared/assets/reflectors/lizard/bigTriangle.i3d (1.14 ms)
+2026-07-04 13:45:45.046 data/shared/assets/reflectors/lizard/redRectangle_01.i3d (0.47 ms)
+2026-07-04 13:45:45.048 data/vehicles/johnDeere/series9R/series9R.i3d (208.98 ms)
+2026-07-04 13:45:45.196 data/shared/assets/reflectors/lizard/yellowRectangle_01.i3d (8.50 ms)
+2026-07-04 13:45:45.200 data/vehicles/amazone/citan15001C/citan15001C.i3d (152.12 ms)
+2026-07-04 13:45:45.261 data/vehicles/johnDeere/series9R/sounds/series9R_loop.gls version 14 (0.33 ms)
+2026-07-04 13:45:45.320 data/vehicles/kinze/planter4900/planter4900.i3d (119.79 ms)
+2026-07-04 13:45:45.495 data/shared/assets/gpsReceiver/gpsReceiver01.i3d (20.15 ms)
+2026-07-04 13:45:45.498 data/vehicles/agrifac/condorEndurance2/condorEndurance2.i3d (178.29 ms)
+2026-07-04 13:45:45.584 data/vehicles/agrifac/condorEndurance2/sounds/condorEndurance2.gls version 15 (0.41 ms)
+2026-07-04 13:45:45.588 data/sounds/vehicles/transmission/transmissionModern_13.gls version 15 (0.06 ms)
+2026-07-04 13:45:45.659 data/shared/assets/reflectors/lizard/yellowRound_01.i3d (0.27 ms)
+2026-07-04 13:45:45.669 data/shared/assets/reflectors/lizard/whiteRound_01.i3d (9.56 ms)
+2026-07-04 13:45:45.669 data/shared/assets/reflectors/lizard/redTriangle_02.i3d (0.25 ms)
+2026-07-04 13:45:45.672 data/vehicles/amazone/ux5201Super/ux5201Super.i3d (173.18 ms)
+2026-07-04 13:45:45.762 data/shared/assets/reflectors/lizard/redTriangle_02.i3d (0.30 ms)
+2026-07-04 13:45:45.762 data/shared/assets/reflectors/lizard/yellowRound_03.i3d (0.24 ms)
+2026-07-04 13:45:45.764 data/vehicles/samsonAgro/us235/us235.i3d (93.12 ms)
+2026-07-04 13:45:45.877 data/shared/assets/reflectors/lizard/redTriangle_02.i3d (0.49 ms)
+2026-07-04 13:45:45.880 data/vehicles/streumaster/fw212tdProfi/fw212tdProfi.i3d (115.37 ms)
+2026-07-04 13:45:46.002 data/vehicles/kotte/pq32000/pq32000.i3d (121.88 ms)
+2026-07-04 13:45:46.083 data/vehicles/samsonAgro/sbh4_36/sbh4_36.i3d (80.65 ms)
+2026-07-04 13:45:46.359 data/shared/assets/extinguisher.i3d (0.70 ms)
+2026-07-04 13:45:46.365 data/shared/assets/reflectors/lizard/yellowRound_03.i3d (0.22 ms)
+2026-07-04 13:45:46.366 data/shared/assets/reflectors/lizard/bigTriangle.i3d (0.19 ms)
+2026-07-04 13:45:46.366 data/vehicles/newHolland/cr11/cr11.i3d (283.84 ms)
+2026-07-04 13:45:46.416 data/sounds/vehicles/fan/fanHarvester01.gls version 15 (0.02 ms)
+2026-07-04 13:45:46.420 data/sounds/vehicles/transmission/transmissionHarvester_01.gls version 15 (0.05 ms)
+2026-07-04 13:45:46.423 data/sounds/vehicles/cabin/cabinHarvester01.gls version 14 (0.01 ms)
+2026-07-04 13:45:46.427 data/vehicles/newHolland/cr11/sounds/cr11.gls version 15 (0.41 ms)
+2026-07-04 13:45:46.512 data/shared/assets/reflectors/lizard/yellowRound_03.i3d (0.27 ms)
+2026-07-04 13:45:46.516 data/vehicles/krone/bigX1180/bigX1180.i3d (149.41 ms)
+2026-07-04 13:45:46.631 data/vehicles/krone/bigX1180/sounds/bigX1180_loop.gls version 14 (0.13 ms)
+2026-07-04 13:45:46.633 data/shared/assets/reflectors/lizard/yellowRound_03.i3d (0.47 ms)
+2026-07-04 13:45:46.637 data/sounds/vehicles/fan/fanHarvester02.gls version 15 (0.11 ms)
+2026-07-04 13:45:46.671 data/shared/assets/camera_04.i3d (25.74 ms)
+2026-07-04 13:45:46.680 data/shared/assets/extinguisher.i3d (0.71 ms)
+2026-07-04 13:45:46.697 data/vehicles/krone/bigPack1290HDPVC/bigPack1290HDPVC.i3d (180.82 ms)
+2026-07-04 13:45:46.804 data/shared/assets/reflectors/lizard/whiteRectangle_01.i3d (14.03 ms)
+2026-07-04 13:45:46.810 data/vehicles/arcusin/fsx6372/fsx6372.i3d (113.93 ms)
+2026-07-04 13:45:46.911 data/shared/assets/reflectors/lizard/whiteRound_01.i3d (0.52 ms)
+2026-07-04 13:45:46.913 data/shared/assets/reflectors/lizard/redRound_01.i3d (0.44 ms)
+2026-07-04 13:45:46.930 data/vehicles/samasz/kdd941STH/kdd941STH.i3d (119.26 ms)
+2026-07-04 13:45:46.967 data/shared/assets/reflectors/lizard/whiteRound_01.i3d (0.39 ms)
+2026-07-04 13:45:46.971 data/vehicles/samasz/kdf341S/kdf341S.i3d (40.70 ms)
+2026-07-04 13:45:47.036 data/shared/assets/reflectors/lizard/yellowRound_03.i3d (0.41 ms)
+2026-07-04 13:45:47.040 data/shared/assets/reflectors/lizard/redTriangle_02.i3d (0.19 ms)
+2026-07-04 13:45:47.041 data/vehicles/poettinger/hit1618T/hit1618T.i3d (70.27 ms)
+2026-07-04 13:45:47.169 data/vehicles/poettinger/top1403/top1403.i3d (128.57 ms)
+2026-07-04 13:45:47.326 data/shared/assets/reflectors/lizard/redTriangle_02.i3d (0.50 ms)
+2026-07-04 13:45:47.327 data/shared/assets/reflectors/lizard/yellowRectangle_01.i3d (0.40 ms)
+2026-07-04 13:45:47.337 data/vehicles/bergmann/shuttle490S/shuttle490S.i3d (167.49 ms)
+2026-07-04 13:45:47.454 data/shared/assets/reflectors/lizard/bigTriangle.i3d (0.26 ms)
+2026-07-04 13:45:47.459 data/vehicles/macDon/fd250/fd250.i3d (121.72 ms)
+2026-07-04 13:45:47.472 data/vehicles/hauer/xb190/xb190.i3d (13.32 ms)
+2026-07-04 13:45:47.504 data/vehicles/fliegl/ruby/ruby.i3d (31.84 ms)
+2026-07-04 13:45:47.535 data/vehicles/albutt/frontloaderBaleKing/frontloaderBaleKing.i3d (31.34 ms)
+2026-07-04 13:45:47.554 data/vehicles/agco/weight2300/weight2300.i3d (18.73 ms)
+2026-07-04 13:45:47.570 data/vehicles/fendt/weight3300/weight3300.i3d (15.54 ms)
+2026-07-04 13:45:47.891 data/store/ui/shop.i3d (321.33 ms)
+2026-07-04 13:45:47.891 dataS/menu/licensePlate/creationBox.i3d (0.07 ms)
+2026-07-04 13:45:47.892 dataS/menu/colorPicker/colorPickerScene.i3d (0.78 ms)
+2026-07-04 13:45:47.907 data/store/ui/shop.i3d (15.14 ms)
+2026-07-04 13:45:47.969 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Mega_Silo/farmSiloProps.i3d (62.21 ms)
+2026-07-04 13:45:48.004 data/handTools/kaercher/hds9184M/hds9184MLance.i3d (35.50 ms)
+2026-07-04 13:45:48.012 data/shared/assets/marker/markerIconMilk.i3d (7.82 ms)
+2026-07-04 13:45:48.020 data/shared/assets/marker/markerIconFood.i3d (7.35 ms)
+2026-07-04 13:45:48.020 data/shared/assets/marker/markerIconAnimals.i3d (0.21 ms)
+2026-07-04 13:45:48.032 data/shared/assets/marker/markerIconSlurry.i3d (11.92 ms)
+2026-07-04 13:45:48.051 data/shared/assets/lights/rudolfHormann/powerSwitch.i3d (18.56 ms)
+2026-07-04 13:45:48.087 data/shared/assets/lights/terraLed/switch.i3d (36.65 ms)
+2026-07-04 13:45:48.111 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_mrhCowBarns/sharedAssets/fillTower.i3d (23.75 ms)
+2026-07-04 13:45:48.136 data/placeables/lely/nautilus/nautilus.i3d (24.98 ms)
+2026-07-04 13:45:48.201 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_mrhCowBarns/sharedAssets/propsBuilding_cowBarnBig.i3d (65.10 ms)
+2026-07-04 13:45:48.305 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_mrhCowBarns/sharedAssets/propsDeco_cowBarnBig.i3d (104.36 ms)
+2026-07-04 13:45:48.332 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_mrhCowBarns/fences/cowBarnPrefabFence.i3d (26.44 ms)
+2026-07-04 13:45:48.334 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_mrhCowBarns/sharedAssets/lights/neonLight01Hanging.i3d (1.49 ms)
+2026-07-04 13:45:48.335 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_mrhCowBarns/sharedAssets/lights/neonLight01.i3d (1.31 ms)
+2026-07-04 13:45:48.356 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_mrhCowBarns/sharedAssets/lights/warehouseWallLamp.i3d (20.81 ms)
+2026-07-04 13:45:48.360 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_mrhCowBarns/sharedAssets/lights/floodLight.i3d (4.12 ms)
+2026-07-04 13:45:48.361 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_mrhCowBarns/sharedAssets/lights/industrialWallLight.i3d (0.83 ms)
+2026-07-04 13:45:48.371 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_mrhCowBarns/fences/animalCowFence.i3d (10.20 ms)
+2026-07-04 13:45:48.420 data/placeables/lely/astronautA5/astronautA5.i3d (49.11 ms)
+2026-07-04 13:45:48.596 data/placeables/lely/vectorGarage/lelyVectorGarage.i3d (176.52 ms)
+2026-07-04 13:45:48.622 data/shared/assets/lights/rudolfHormann/light150.i3d (25.82 ms)
+2026-07-04 13:45:48.623 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_PigFattening/i3d/pigFatteningMesh.i3d (0.36 ms)
+2026-07-04 13:45:48.646 data/placeables/rudolfHormann/controlPanel/controlPanel.i3d (23.93 ms)
+2026-07-04 13:45:48.685 data/placeables/brandless/fences/husbandries/sheepNetFence/sheepNetFence.i3d (38.59 ms)
+2026-07-04 13:45:48.726 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Chicken_Coop_Br/props/props_aviario.i3d (40.98 ms)
+2026-07-04 13:45:48.726 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Chicken_Coop_Br/props/helise.i3d (0.31 ms)
+2026-07-04 13:45:48.726 C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Chicken_Coop_Br/navigationMesh.i3d (0.06 ms)
+2026-07-04 13:45:48.989 data/shared/wheels/hubs/hubs.i3d (262.46 ms)
+2026-07-04 13:45:49.008 data/shared/wheels/rims/rim001.i3d (18.85 ms)
+2026-07-04 13:45:49.046 data/shared/wheels/tires/trelleborg/TM1000/650_65R38.i3d (37.77 ms)
+2026-07-04 13:45:49.055 data/effects/wheel/wheelEmitterShape.i3d (9.48 ms)
+2026-07-04 13:45:49.096 data/effects/wheel/water/water.i3d (40.47 ms)
+2026-07-04 13:45:49.117 data/shared/wheels/weights/weight003.i3d (21.80 ms)
+2026-07-04 13:45:49.130 data/shared/wheels/tires/trelleborg/TM1000/750_75R46.i3d (12.57 ms)
+2026-07-04 13:45:49.140 data/effects/exhaust/exhaust.i3d (10.30 ms)
+2026-07-04 13:45:49.169 data/shared/assets/beaconLights/lizard/beaconLight13.i3d (29.13 ms)
+2026-07-04 13:45:49.198 data/shared/assets/upperLinks/walterscheidHO_140_750.i3d (28.70 ms)
+2026-07-04 13:45:49.224 data/shared/assets/toolbars/toolbars.i3d (26.43 ms)
+2026-07-04 13:45:49.244 data/shared/assets/upperLinks/walterscheidSO_65_660.i3d (20.31 ms)
+2026-07-04 13:45:49.256 data/shared/connectionHoses/AdditionalTopRightHose.i3d (11.42 ms)
+2026-07-04 13:45:49.276 data/shared/connectionHoses/toolConnectionHoseMounts/vaderstadProceedV.i3d (19.96 ms)
+2026-07-04 13:45:49.298 data/shared/connectionHoses/toolConnectionHoseMounts/skyProgressTF.i3d (22.23 ms)
+2026-07-04 13:45:49.327 data/vehicles/fendt/shared/oneDisplays.i3d (28.73 ms)
+2026-07-04 13:45:49.340 data/shared/wheels/tires/trelleborg/TM1000/600_70R30.i3d (12.82 ms)
+2026-07-04 13:45:49.353 data/shared/wheels/tires/trelleborg/TM1000/710_75R42.i3d (12.84 ms)
+2026-07-04 13:45:49.374 data/shared/assets/lights/lizard/plateNumberLight02.i3d (21.59 ms)
+2026-07-04 13:45:49.394 data/shared/assets/beaconLights/lizard/beaconLight07.i3d (20.60 ms)
+2026-07-04 13:45:49.404 data/shared/assets/upperLinks/walterscheidSO_65_560.i3d (9.18 ms)
+2026-07-04 13:45:49.423 data/vehicles/caseIH/shared/displays/displays.i3d (18.24 ms)
+2026-07-04 13:45:49.440 data/shared/wheels/rims/rim006.i3d (17.42 ms)
+2026-07-04 13:45:49.453 data/shared/wheels/tires/trelleborg/TM1000/650_60R34.i3d (13.15 ms)
+2026-07-04 13:45:49.476 data/shared/wheels/weights/weight004.i3d (22.29 ms)
+2026-07-04 13:45:49.498 data/shared/wheels/rims/rim007.i3d (22.26 ms)
+2026-07-04 13:45:49.526 data/shared/assets/lights/lizard/workingLight16.i3d (28.19 ms)
+2026-07-04 13:45:49.552 data/shared/assets/beaconLights/lizard/beaconLight16.i3d (26.09 ms)
+2026-07-04 13:45:49.577 data/shared/assets/upperLinks/johnDeereUpperlink.i3d (25.16 ms)
+2026-07-04 13:45:49.610 data/vehicles/johnDeere/shared/displays/g4Displays.i3d (33.09 ms)
+2026-07-04 13:45:49.632 data/shared/assets/beaconLights/lizard/beaconLight08.i3d (21.55 ms)
+2026-07-04 13:45:49.649 data/shared/wheels/weights/valtra/wheelWeight01.i3d (17.68 ms)
+2026-07-04 13:45:49.667 data/shared/assets/lights/lizard/plateNumberLight04.i3d (17.60 ms)
+2026-07-04 13:45:49.686 data/shared/assets/beaconLights/lizard/beaconLight15.i3d (18.71 ms)
+2026-07-04 13:45:49.734 data/vehicles/valtra/shared/displayDecals/valtraDisplays.i3d (47.95 ms)
+2026-07-04 13:45:49.761 data/shared/wheels/tires/trelleborg/TM900/600_70R28.i3d (27.04 ms)
+2026-07-04 13:45:49.785 data/shared/wheels/weights/cnh/weight001.i3d (24.51 ms)
+2026-07-04 13:45:49.799 data/shared/wheels/tires/trelleborg/TM900/650_85R38.i3d (13.07 ms)
+2026-07-04 13:45:49.829 data/shared/assets/lights/lizard/plateNumberLight05.i3d (30.35 ms)
+2026-07-04 13:45:49.857 data/shared/assets/lights/lizard/workingLight33.i3d (27.81 ms)
+2026-07-04 13:45:49.881 data/shared/assets/lights/lizard/workingLight41.i3d (23.78 ms)
+2026-07-04 13:45:49.900 data/shared/assets/lights/lizard/workingLight48.i3d (18.77 ms)
+2026-07-04 13:45:49.921 data/shared/wheels/tires/trelleborg/T404/710_50R30_5.i3d (21.68 ms)
+2026-07-04 13:45:49.948 data/shared/assets/wheelChocks/wheelChock01.i3d (26.54 ms)
+2026-07-04 13:45:49.979 data/shared/assets/lights/krone/kroneRearLight01.i3d (30.98 ms)
+2026-07-04 13:45:50.007 data/shared/assets/lights/lizard/sideMarker01.i3d (28.04 ms)
+2026-07-04 13:45:50.036 data/shared/assets/lights/lizard/sideMarker06Orange.i3d (29.18 ms)
+2026-07-04 13:45:50.048 data/shared/assets/lights/lizard/sideMarker06Red.i3d (12.55 ms)
+2026-07-04 13:45:50.061 data/shared/assets/lights/lizard/sideMarker06White.i3d (12.57 ms)
+2026-07-04 13:45:50.090 data/shared/assets/lights/lizard/plateNumberLight01.i3d (28.92 ms)
+2026-07-04 13:45:50.131 data/shared/assets/powerTakeOffs/walterscheidWWE.i3d (41.47 ms)
+2026-07-04 13:45:50.147 data/shared/wheels/tires/michelin/cargoXBib/710_50R26_5.i3d (15.29 ms)
+2026-07-04 13:45:50.180 data/shared/assets/lights/lizard/rearLight31.i3d (33.59 ms)
+2026-07-04 13:45:50.194 data/shared/wheels/tires/trelleborg/T404/500_45R22_5.i3d (14.38 ms)
+2026-07-04 13:45:50.218 data/shared/wheels/tires/trelleborg/T421/320_60R12.i3d (22.88 ms)
+2026-07-04 13:45:50.241 data/shared/assets/lowerLinkBalls/lowerLinkBall02.i3d (23.20 ms)
+2026-07-04 13:45:50.271 data/shared/assets/lights/lizard/rearLight33.i3d (29.93 ms)
+2026-07-04 13:45:50.301 data/shared/assets/beaconLights/lizard/beaconLight03.i3d (29.98 ms)
+2026-07-04 13:45:50.325 data/shared/wheels/tires/lizard/implement/320_70R15.i3d (24.06 ms)
+2026-07-04 13:45:50.354 data/shared/assets/lights/lizard/rearLight67Red.i3d (29.57 ms)
+2026-07-04 13:45:50.385 data/shared/assets/lights/lizard/rearLight69Orange.i3d (30.76 ms)
+2026-07-04 13:45:50.402 data/shared/assets/wheelChocks/wheelChockSupport01.i3d (17.18 ms)
+2026-07-04 13:45:50.425 data/shared/wheels/tires/trelleborg/TM700/280_70R16_VO.i3d (22.26 ms)
+2026-07-04 13:45:50.450 data/shared/wheels/rims/rim008.i3d (25.17 ms)
+2026-07-04 13:45:50.462 data/shared/wheels/tires/trelleborg/TM900/800_70R38.i3d (12.10 ms)
+2026-07-04 13:45:50.485 data/shared/wheels/tires/trelleborg/TwinRadial/710_50R26_5.i3d (23.50 ms)
+2026-07-04 13:45:50.529 data/shared/assets/lights/lizard/rearLight23.i3d (43.85 ms)
+2026-07-04 13:45:50.560 data/shared/assets/lights/lizard/rearLight14.i3d (31.37 ms)
+2026-07-04 13:45:50.592 data/shared/assets/lights/lizard/workingLight12.i3d (30.57 ms)
+2026-07-04 13:45:50.615 data/shared/wheels/tires/continental/contiHybridHD3/245_70R19_5.i3d (23.62 ms)
+2026-07-04 13:45:50.638 data/shared/wheels/tires/mitas/FL02/6_50_R10.i3d (22.79 ms)
+2026-07-04 13:45:50.660 data/shared/wheels/tires/trelleborg/TM600/480_95R50.i3d (22.45 ms)
+2026-07-04 13:45:50.661 data/shared/assets/reflectors/lizard/yellowRectangle_01.i3d (0.44 ms)
+2026-07-04 13:45:50.689 data/shared/assets/lights/lizard/sideMarker04.i3d (27.84 ms)
+2026-07-04 13:45:50.727 data/shared/assets/lights/lizard/sideMarker11.i3d (37.94 ms)
+2026-07-04 13:45:50.755 data/shared/assets/lights/hella/hellaWorkingLight01.i3d (28.39 ms)
+2026-07-04 13:45:50.784 data/shared/assets/lights/hella/hellaWorkingLight05.i3d (29.54 ms)
+2026-07-04 13:45:50.794 data/shared/wheels/tires/trelleborg/TM600/480_80R46.i3d (9.84 ms)
+2026-07-04 13:45:50.803 data/shared/assets/powerTakeOffs/walterscheidW.i3d (8.83 ms)
+2026-07-04 13:45:50.814 data/shared/wheels/tires/trelleborg/T404/800_45R30_5.i3d (11.16 ms)
+2026-07-04 13:45:50.843 data/shared/assets/lights/lizard/rearLight10.i3d (29.08 ms)
+2026-07-04 13:45:50.874 data/shared/assets/lights/lizard/sideMarker05Orange.i3d (30.21 ms)
+2026-07-04 13:45:50.893 data/shared/assets/lights/lizard/sideMarker05White.i3d (19.10 ms)
+2026-07-04 13:45:50.931 data/shared/assets/lights/lizard/sideMarker03.i3d (38.61 ms)
+2026-07-04 13:45:50.960 data/shared/assets/lights/lizard/workingLight11.i3d (28.40 ms)
+2026-07-04 13:45:50.974 data/shared/wheels/tires/trelleborg/TwinRadial/750_60R30_5.i3d (14.17 ms)
+2026-07-04 13:45:51.006 data/shared/assets/lights/lizard/rearLight95.i3d (31.62 ms)
+2026-07-04 13:45:51.019 data/shared/wheels/tires/trelleborg/T404/650_65R30_5.i3d (13.07 ms)
+2026-07-04 13:45:51.041 data/shared/assets/lights/lizard/rearLight44.i3d (22.04 ms)
+2026-07-04 13:45:51.051 data/shared/assets/lowerLinkBalls/lowerLinkBall01.i3d (10.54 ms)
+2026-07-04 13:45:51.082 data/shared/assets/lights/lizard/rearLight13.i3d (30.53 ms)
+2026-07-04 13:45:51.110 data/shared/assets/beaconLights/lizard/beaconLight01.i3d (28.31 ms)
+2026-07-04 13:45:51.131 data/shared/wheels/tires/michelin/cereXBib/520_85R30.i3d (21.06 ms)
+2026-07-04 13:45:51.175 data/shared/crawlers/newHolland/crSeriesCrawler/crSeriesCrawler.i3d (43.93 ms)
+2026-07-04 13:45:51.208 data/shared/assets/lights/lizard/rearLight41.i3d (32.83 ms)
+2026-07-04 13:45:51.240 data/shared/assets/lights/lizard/sideMarker16Orange.i3d (31.95 ms)
+2026-07-04 13:45:51.271 data/shared/assets/lights/lizard/workingLight44.i3d (31.03 ms)
+2026-07-04 13:45:51.300 data/shared/assets/beaconLights/lizard/beaconLight06.i3d (29.47 ms)
+2026-07-04 13:45:51.309 data/shared/wheels/tires/trelleborg/TM1000/710_70R42.i3d (9.05 ms)
+2026-07-04 13:45:51.325 data/shared/wheels/rims/dual002.i3d (15.24 ms)
+2026-07-04 13:45:51.341 data/shared/wheels/tires/trelleborg/TM3000/750_65R26.i3d (15.92 ms)
+2026-07-04 13:45:51.357 data/shared/wheels/tires/michelin/axioBib/710_70R42.i3d (16.30 ms)
+2026-07-04 13:45:51.366 data/shared/wheels/tires/michelin/cereXBib/750_65R26.i3d (8.71 ms)
+2026-07-04 13:45:51.375 data/shared/wheels/tires/trelleborg/TM900/600_70R30.i3d (8.96 ms)
+2026-07-04 13:45:51.393 data/shared/assets/lights/lizard/workingLight02.i3d (18.80 ms)
+2026-07-04 13:45:51.433 data/shared/assets/lights/lizard/workingLight04.i3d (39.75 ms)
+2026-07-04 13:45:51.451 data/shared/assets/beaconLights/lizard/beaconLight02.i3d (17.44 ms)
+2026-07-04 13:45:51.466 data/shared/wheels/hubs/hubSmall01.i3d (15.44 ms)
+2026-07-04 13:45:51.482 data/shared/wheels/tires/trelleborg/T510/15x6_00R6.i3d (15.44 ms)
+2026-07-04 13:45:51.498 data/shared/wheels/tires/trelleborg/AW305/260_70R15_3.i3d (16.13 ms)
+2026-07-04 13:45:51.521 data/shared/assets/lights/hella/hellaWorkingLight02.i3d (23.53 ms)
+2026-07-04 13:45:51.530 data/shared/wheels/tires/trelleborg/T404/560_45R22_5.i3d (8.36 ms)
+2026-07-04 13:45:51.537 data/shared/wheels/tires/mitas/FL02/6_R9.i3d (7.88 ms)
+2026-07-04 13:45:51.556 data/shared/assets/lights/lizard/rearLight09.i3d (18.96 ms)
+2026-07-04 13:45:51.574 data/shared/assets/lights/lizard/rearLight58.i3d (18.19 ms)
+2026-07-04 13:45:51.583 data/shared/assets/powerTakeOffs/walterscheidW_SC25.i3d (8.63 ms)
+2026-07-04 13:45:51.602 data/shared/assets/lights/lizard/frontLight06White.i3d (18.91 ms)
+2026-07-04 13:45:51.619 data/shared/assets/wheelChocks/wheelChock02.i3d (16.91 ms)
+2026-07-04 13:45:51.635 data/shared/wheels/tires/bkt/ridemaxFL693M/500_50R17.i3d (16.22 ms)
+2026-07-04 13:45:51.645 data/shared/wheels/tires/trelleborg/T510/16x6_50R8.i3d (9.13 ms)
+2026-07-04 13:45:51.661 data/shared/wheels/tires/vredestein/flotationPro/620_40R22_5.i3d (15.96 ms)
+2026-07-04 13:45:51.680 data/shared/assets/lights/lizard/rearLight47.i3d (19.43 ms)
+2026-07-04 13:45:51.680 data/shared/assets/reflectors/lizard/yellowRound_02.i3d (0.30 ms)
+2026-07-04 13:45:51.690 data/shared/assets/powerTakeOffs/walterscheidWWZ.i3d (10.25 ms)
+2026-07-04 13:45:51.698 data/shared/wheels/tires/mitas/FL02/7_R12.i3d (7.99 ms)
+2026-07-04 14:00:42.868   Info: Entered Gameplay
+2026-07-04 14:00:42.875 dataS/character/shared/kinematicHelper.i3d (0.13 ms)
+2026-07-04 14:00:42.877   Info: Savegame Setting 'dirtInterval': 3
+2026-07-04 14:00:42.877   Info: Savegame Setting 'snowEnabled': true
+2026-07-04 14:00:42.877   Info: Savegame Setting 'trafficEnabled': true
+2026-07-04 14:00:42.877   Info: Savegame Setting 'growthMode': SEASONAL
+2026-07-04 14:00:42.877   Info: Savegame Setting 'fuelUsage': 2
+2026-07-04 14:00:42.877   Info: Savegame Setting 'plowingRequiredEnabled': false
+2026-07-04 14:00:42.877   Info: Savegame Setting 'weedsEnabled': true
+2026-07-04 14:00:42.877   Info: Savegame Setting 'limeRequired': true
+2026-07-04 14:00:42.877   Info: Savegame Setting 'stonesEnabled': true
+2026-07-04 14:00:42.877   Info: Savegame Setting 'economicDifficulty': EASY
+2026-07-04 14:00:42.877   Info: Savegame Setting 'fixedSeasonalVisuals': nil
+2026-07-04 14:00:42.877   Info: Savegame Setting 'plannedDaysPerPeriod': 1
+2026-07-04 14:00:42.877   Info: TreePlantManager - NumTrees 5290 (0 split) / MaxNumTrees: 8000
+2026-07-04 14:00:42.878   Info: No vehicle navigation cost map found. Start scanning map...
+2026-07-04 14:00:42.899 data/handTools/brandless/flashlight/flashlight.i3d (24.27 ms)
+2026-07-04 14:00:43.100 dataS/character/playerM/heads/mHead01.i3d (120.74 ms)
+2026-07-04 14:00:43.122 dataS/character/playerM/jacket/topLeatherJacket.i3d (22.14 ms)
+2026-07-04 14:00:43.123 dataS/character/playerM/attachments/glassesAviators.i3d (1.33 ms)
+2026-07-04 14:00:43.143 dataS/character/playerM/hairStyles/hairStyleManBun.i3d (19.99 ms)
+2026-07-04 14:00:43.151 dataS/character/playerM/facialHair/mHead01/trimmedBeard.i3d (7.58 ms)
+2026-07-04 14:00:44.061 FTG 'C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/data/densityMap_fruits.gdm' max needed CPU instances = 9.839417 MB / 177.398438 MB
+2026-07-04 14:00:44.062 FTG 'C:/Users/ScottSingleton/Documents/My Games/FarmingSimulator2025/mods/FS25_Kansas_Map_16x/data/densityMap_weed.gdm' max needed CPU instances = 3.202026 MB / 9.570312 MB
