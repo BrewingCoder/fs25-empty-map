@@ -24,8 +24,10 @@ not by name — see 30_i3d.md.
 The map is 8192m; densities are 16384² (2 px/m), farmland is 4096² (0.5 px/m). Center pixel = resolution/2.
 - **`densityMap_fruits`** (10ch, 2 ranges split at 5, ntic 5): the workable area (`_sq(16384, 500, inset=1)` =
   px 7194–9190) = **wheat**. Fruits value is packed `typeIdx | (state << numTypeIndexChannels)`:
-  wheat typeIdx **7**, harvest-ready state **7** → `7 | (7<<5) = 231`. (Type indices are the 1-based order of the
-  FoliageType list in the fruits FML — wheat is #7; see base_foliage.json.)
+  wheat typeIdx **6**, harvest-ready state **7** → `6 | (7<<5) = 230`. **Type indices are 0-BASED** — the index in
+  the fruits FML's FoliageType list (decoFoliage=0, decoBushUS=1, meadow=2, forestPlants=3, waterPlants=4,
+  grass=5, **wheat=6**, canola=7, barley=8, maize=9, potato=10, …; see base_foliage.json). Using 7 gives canola.
+  Verified: crops DO render on this correctly-structured from-scratch map (WW never managed this).
 - **`densityMap_ground`** (11ch, 1 range): same workable area = **groundType 7 (sown)** — the tilled dirt look.
 - **`infoLayer_farmland`** (4096²): the field square (`_sq(4096, 500)` = px 1798–2298) = **1**; rest = **2**.
 

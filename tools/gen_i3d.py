@@ -109,7 +109,7 @@ def emit_foliage_system(layers_el):
             sub(fml, "FoliageType", name=t["name"], foliageXmlId=R.fid(t["foliage"]))
 
 
-def build_terrain(scene):
+def build_terrain(cfg, scene):
     t = sub(scene, "TerrainTransformGroup", name="terrain", static="true",
             collisionFilterGroup="0x100", collisionFilterMask="0xfffff9c3", nodeId=nid(),
             heightMapId=R.fid("data/map_dem.png"), patchSize="65", heightScale=HEIGHT_SCALE,
@@ -149,7 +149,7 @@ def build_terrain(scene):
         heightFirstChannel="6", heightNumChannels="6", maxHeight="4")
 
     # 5) runtime displacement (no file)
-    sub(layers, "DisplacementLayer", name="terrainDisplacement", size="16384", tileSize="16",
+    sub(layers, "DisplacementLayer", name="terrainDisplacement", size=cfg.disp_size, tileSize="16",
         numChannels="6", cellSize="2", viewDistance="25", blendOutDistance="5", maxHeight="0.2",
         densityMapShaderNames="terrainDisplacementMap")
 
@@ -165,9 +165,9 @@ def build_terrain(scene):
                 sub(g, "Option", value=val, name=label)
 
 
-def build(out_i3d):
+def build(cfg, out_i3d):
     root = ET.Element("i3D", {
-        "name": "empty16x.i3d", "version": "1.6",
+        "name": cfg.i3d, "version": "1.6",
         "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
         "xsi:noNamespaceSchemaLocation": "http://i3d.giants.ch/schema/i3d-1.6.xsd"})
     asset = sub(root, "Asset"); sub(asset, "Export", program="fs25-empty-map/gen_i3d.py", version="1.0")
@@ -200,7 +200,7 @@ def build(out_i3d):
         lastShadowMapSplitBboxMax="1024,148,1024", range="10000", scattering="true")
     sub(scene, "Camera", name="persp", translation="0 60 0", rotation="-30 0 0", visibility="false",
         nodeId=nid(), fov="60", nearClip="0.1", farClip="10000", orthographicHeight="2200")
-    build_terrain(scene)
+    build_terrain(cfg, scene)
     sub(scene, "Camera", name="cameraOverView", translation="0 7300 0", rotation="-90 0 0", nodeId=nid(),
         fov="60", nearClip="0.1", farClip="10000", orthographicHeight="1")
     # spawn point. Registers via onCreate=Mission00.onCreateStartPoint (added below). WITHOUT it the game finds no
@@ -248,4 +248,5 @@ def build(out_i3d):
 
 
 if __name__ == "__main__":
-    build(os.path.join(os.path.dirname(__file__), "..", "out", "FS25_Empty16x", "maps", "empty16x.i3d"))
+    import mapcfg
+    build(mapcfg.CFG16, os.path.join(os.path.dirname(__file__), "..", "out", "FS25_Empty16x", "maps", "empty16x.i3d"))
