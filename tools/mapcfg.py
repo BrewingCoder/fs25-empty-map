@@ -17,8 +17,11 @@ class Cfg:
         self.i3d = f"{name.lower()}.i3d"                     # empty16x.i3d
         self.title = f"Empty {tag}"                          # "Empty 16x"
         self.dem_res = map_m // self.UNITS_PER_PIXEL + 1     # 4097 for 8192 (patch edges share -> +1)
-        self.weight_res = map_m                              # 8192 (1 px/m)
-        self.density_res = map_m * 2                         # 16384 (2 px/m); .gdm mapSizeLog = log2-5
+        self.weight_res = min(map_m, 8192)                   # 1 px/m, CAP 8192^2 (West End 64x keeps weights 8192^2)
+        # 2 px/m, but CAPPED at 16384^2. Larger density textures OOM the GPU: a 64x at 32768^2 crashed with
+        # "Failed to allocate ImageResource for DensityTexture, probably out of memory". Capped -> 64x = 1 px/m
+        # (same density-texture size as the working 16x, so it fits). .gdm mapSizeLog = log2(res) - 5.
+        self.density_res = min(map_m * 2, 16384)
         self.overview_res = map_m                            # 8192 (1 px/m)
         self.disp_size = self.density_res                    # DisplacementLayer size = density res
         d = self.density_res                                 # infolayer .grle resolutions (verified vs Kansas)
@@ -30,3 +33,4 @@ class Cfg:
 
 CFG16 = Cfg(8192, "Empty16x", "16x")
 CFG4 = Cfg(4096, "Empty4x", "4x")
+CFG64 = Cfg(16384, "Empty64x", "64x")   # 64x = 16384 m; density + weights CAPPED (see Cfg) - loads clean, matches West End

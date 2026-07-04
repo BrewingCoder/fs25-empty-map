@@ -9,7 +9,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import mapcfg, gen_i3d, gen_data, gen_configs
 
-SIZES = {"16": mapcfg.CFG16, "4": mapcfg.CFG4}
+SIZES = {"16": mapcfg.CFG16, "4": mapcfg.CFG4, "64": mapcfg.CFG64}
 
 
 def build(cfg):

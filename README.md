@@ -15,7 +15,9 @@ This is the reusable starting point for all future 16x maps and FS22→FS25 conv
 
 ## Build & deploy (deterministic — same output every run)
 ```
-python tools/build.py                 # generates everything into out/FS25_Empty16x/
+python tools/build.py 16   # 16x (8192 m, default) -> out/FS25_Empty16x/
+python tools/build.py 4    # 4x  (4096 m)          -> out/FS25_Empty4x/
+python tools/build.py 64   # 64x (16384 m)         -> out/FS25_Empty64x/    (density/weights capped - see docs/70)
 ```
 Deploy to the game (junction so edits are live), from PowerShell:
 ```

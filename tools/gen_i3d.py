@@ -113,10 +113,10 @@ def build_terrain(cfg, scene):
     t = sub(scene, "TerrainTransformGroup", name="terrain", static="true",
             collisionFilterGroup="0x100", collisionFilterMask="0xfffff9c3", nodeId=nid(),
             heightMapId=R.fid("data/map_dem.png"), patchSize="65", heightScale=HEIGHT_SCALE,
-            unitsPerPixel="2", maxLODDistance="1e+07", lodBlendStart="200", lodBlendEnd="300",
+            unitsPerPixel="2", maxLODDistance="750", lodBlendStart="200", lodBlendEnd="300",
             lodTextureSize="8192", lodBlendStartDynamic="50", lodBlendEndDynamic="97",
             detailLodBlendDelta="5", materialId="1", castShadowMap="true",
-            occNumLODs="0", occMaxLODDistance="512000", occPatchSize="65", occLevel="1",
+            occNumLODs="0", occMaxLODDistance="300", occPatchSize="65", occLevel="1",
             occDistanceWeight="1", occMaxAdjacentFaces="100")
     # OccluderLods must be PRESENT (defines the occluder mesh LODs) even though occNumLODs=0 (occlusion culling
     # off). Present-with-occNumLODs=0 is the config a working clean 16x terrain uses: it avoids the non-manifold
