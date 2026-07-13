@@ -73,3 +73,19 @@ The hardest component. This is what makes an FS25 map a *terrain*. Learned by re
 - **`<OverlayLayer>`** (crop-stage overlays) — no crops.
 - **`<FoliageSystem>`** (3D grass/crop *blades*) — our "grass" is the ground *texture* (a `<Layer>`), not foliage.
 - **`<Shape>` / `.i3d.shapes`** — no meshes at all on an empty flat map.
+
+## GOTCHA — `terrainDetailHeight maxHeight` must stay > 0 (else FREEZE on drive/mow)
+
+`gen_i3d.py` has a `micro_displacement=False` post-process (default) that zeroes terrain-layer `maxHeight` to kill
+**washboard/diamond corrugation** on non-flat terrain. That corrugation comes ONLY from the micro-tessellation
+**`DisplacementLayer`** (`terrainDisplacement`) — so zero *that* one. Do **NOT** zero the **`terrainDetailHeight`
+DetailLayer**: it is the fill/height layer (densityMap_height) that the engine's **`tireTrackSystem` and `SnowSystem`
+read**. If `terrainDetailHeight maxHeight="0"`:
+- `g_currentMission.tireTrackSystem` is never created → nil.
+- `SnowSystem.lua:524 updateSnowShader` divides by the zero max-height → **Divide by zero** every frame.
+- `SnowSystem.lua:286` / `DensityMapHeightUtil.lua:448` index the nil `tireTrackSystemId` every frame.
+
+The moment a **mower/vehicle drives on terrain**, these fire per-`update` → tens of thousands of log errors →
+the game **freezes**. A blank height-density map adds 0 height regardless of `maxHeight`, so keeping it at `4`
+(mapUS's value) causes **no** visual corrugation — only the DisplacementLayer does. Fixed 2026-07-06: the zeroing
+loop now touches `DisplacementLayer` only; `terrainDetailHeight` keeps `maxHeight="4"`.

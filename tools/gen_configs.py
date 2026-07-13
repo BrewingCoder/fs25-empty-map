@@ -12,7 +12,49 @@ MAP_XML = '''<?xml version="1.0" encoding="utf-8" standalone="no" ?>
     <sounds filename="$data/maps/mapUS/sounds/sounds.xml" />
     <environment filename="$data/maps/mapUS/config/environment.xml" />
     <weed filename="$data/maps/mapUS/config/weed.xml" />
-    <fieldGround filename="$data/maps/mapUS/config/fieldGround.xml" />
+    <fieldGround filename="maps/config/fieldGround.xml" />
+    <!-- Register MEADOW as a growable/mowable fruit ON TOP of the auto-loaded stock list. The game reads ONLY THE
+         FIRST <fruitTypes> element in map.xml: shipping an explicit stock-list element first (as we did until
+         2026-07-06) makes the game IGNORE this block entirely - the log then shows the 25 stock fruits load and
+         MEADOW never registers. The stock $data/maps/maps_fruitTypes.xml auto-loads when no filename override is
+         given (mapUS.xml itself carries only this inline block), so this must be the ONLY fruitTypes element. -->
+    <fruitTypes>
+        <fruitType filename="$data/foliage/meadow/meadowUS/meadowUS.xml" />
+    </fruitTypes>
+    <fruitTypeCategories>
+        <fruitTypeCategory name="MOWER">MEADOW</fruitTypeCategory>
+    </fruitTypeCategories>
+    <fillTypes filename="$data/maps/maps_fillTypes.xml" />
+    <densityMapHeightTypes filename="$data/maps/maps_densityMapHeightTypes.xml" />
+    <bales filename="$data/maps/maps_bales.xml" />
+    <additionalFiles>
+        <!-- Material holders the engine binds runtime systems to. WITHOUT tireTrackMaterialHolder +
+             fillPlane_materialHolder, g_currentMission.tireTrackSystem is nil and DEPOSITING anything on the
+             ground (mower/forager windrow, straw swath, heaps) throws DensityMapHeightUtil:tireTrackSystemId nil
+             every frame and FREEZES the game. A from-scratch map must load these (all base-game $data). -->
+        <additionalFile filename="$data/shared/materialHolders/tireTrackMaterialHolder.i3d" />
+        <additionalFile filename="$data/fillPlanes/fillPlane_materialHolder.i3d" />
+        <additionalFile filename="$data/effects/effects.xml" />
+        <additionalFile filename="$data/shared/materialHolders/tensionBelts/tensionBeltMaterialHolder.i3d" />
+        <additionalFile filename="$data/shared/materialHolders/waterSimulationMaterialHolder.i3d" />
+    </additionalFiles>
+    <!-- Register the non-fruit foliage layers so they are MOWABLE / paintable. Without <paintableFoliages> the
+         'meadow' foliage renders but the game won't mow it or track its harvest state. layerNames must match
+         FoliageType names in the map.i3d FoliageSystem. -->
+    <decoFoliages>
+        <decoFoliage layerName="decoFoliage" startChannel="0" numChannels="4" mowable="true" />
+        <decoFoliage layerName="forestPlants" startChannel="0" numChannels="4" mowable="true" />
+        <decoFoliage layerName="waterPlants" startChannel="0" numChannels="4" mowable="true" />
+        <decoFoliage layerName="decoBushUS" startChannel="0" numChannels="4" />
+        <decoFoliage layerName="decoBush" startChannel="0" numChannels="4" />
+        <mapping name="grassShort" layerName="decoFoliage" state="9" />
+    </decoFoliages>
+    <paintableFoliages>
+        <paintableFoliage layerName="grass" startChannel="0" numStateChannels="4" />
+        <paintableFoliage layerName="meadow" startChannel="0" numStateChannels="4" />
+        <paintableFoliage layerName="decoBushUS" startChannel="0" numStateChannels="4" />
+        <paintableFoliage layerName="decoFoliage" startChannel="0" numStateChannels="4" />
+    </paintableFoliages>
     <farmlands filename="maps/farmlands.xml" />
     <aiSystem filename="$data/maps/mapUS/config/aiSystem.xml" />
     <npcs filename="$data/maps/maps_npcs.xml" />
@@ -21,12 +63,32 @@ MAP_XML = '''<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 '''
 
 FARMLANDS_XML = '''<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<map>
-    <farmlands infoLayer="farmlands" pricePerHa="60000">
-        <farmland id="1" priceScale="1" defaultFarmProperty="true" />
-        <farmland id="2" priceScale="1" npcName="FORESTER" />
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../shared/xml/schema/farmlands.xsd">
+    <farmlands densityMapFilename="maps/data/infoLayer_farmland.grle" numChannels="8" pricePerHa="60000">
+        <farmland id="1" priceScale="1" npcName="FARMER" defaultFarmProperty="true" />
+        <farmland id="2" priceScale="1" npcName="HELPER" />
     </farmlands>
 </map>
+'''
+
+# Map-LOCAL field-ground level maps. Base-game maps ship this per map; borrowing $data/maps/mapUS/config/fieldGround.xml
+# makes fertilizer/lime/plow LEVELS run on mapUS's mismatched maps -> spray/fertilize contracts stuck at 0%, no
+# fertilizer harvest bonus. Replicates mapUS's config with filenames pointing at OUR blank level .grle's (gen_data).
+# Channel counts MUST match gen_data. See fs25-empty-map#1.
+FIELDGROUND_XML = '''<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<fieldGround>
+    <densityMaps>
+        <sprayLevel filename="maps/data/infoLayer_sprayLevel.grle" firstChannel="0" numChannels="2" maxValue="2"/>
+        <limeLevel filename="maps/data/infoLayer_limeLevel.grle" firstChannel="0" numChannels="2" />
+        <plowLevel filename="maps/data/infoLayer_plowLevel.grle" firstChannel="0" numChannels="1" />
+        <stubbleShredLevel filename="maps/data/infoLayer_stubbleShredLevel.grle" firstChannel="0" numChannels="1" />
+        <rollerLevel filename="maps/data/infoLayer_rollerLevel.grle" firstChannel="0" numChannels="1" />
+        <fieldType filename="maps/data/infoLayer_fieldType.grle" firstChannel="0" numChannels="1">
+            <default value="0" />
+            <rice value="1" />
+        </fieldType>
+    </densityMaps>
+</fieldGround>
 '''
 
 MODDESC = '''<?xml version="1.0" encoding="utf-8" standalone="no" ?>
@@ -55,6 +117,9 @@ def build(cfg, mod_dir, maps_dir, desc_version="100"):
     # overview = the static map picture the game displays and overlays fields onto (must be map-sized). Empty grass.
     Image.new("RGB", (cfg.overview_res, cfg.overview_res), (72, 88, 48)).save(os.path.join(maps_dir, "overview.png"))
     _w(os.path.join(maps_dir, "farmlands.xml"), FARMLANDS_XML)
+    # map-local field-ground level maps (referenced by map.xml <fieldGround>). See fs25-empty-map#1.
+    os.makedirs(os.path.join(maps_dir, "config"), exist_ok=True)
+    _w(os.path.join(maps_dir, "config", "fieldGround.xml"), FIELDGROUND_XML)
     for name, root in (("vehicles", "vehicles"), ("placeables", "placeables"), ("items", "items")):
         _w(os.path.join(maps_dir, name + ".xml"),
            f'<?xml version="1.0" encoding="utf-8" standalone="no" ?>\n<{root}></{root}>\n')

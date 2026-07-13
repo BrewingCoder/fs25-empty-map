@@ -42,3 +42,20 @@ It must point at the i3d relative to the **mod root** (`maps/empty16x.i3d`), not
 ## Notes
 - No `<fruitTypes>`/`<fillTypes>` ref → the game uses base-game defaults (fine for an empty map; there are no crops).
 - Sub-config filenames: `$data/...` = game data dir, `$dataS/...` = game scripts dir, plain `maps/...` = mod-local.
+
+## fruitTypes: the game reads ONLY the FIRST <fruitTypes> element (log-proven 2026-07-06)
+The stock `$data/maps/maps_fruitTypes.xml` auto-loads when map.xml has no fruitTypes filename override — mapUS.xml
+itself ships ONLY an inline block adding meadowUS. If you put `<fruitTypes filename="$data/maps/maps_fruitTypes.xml"/>`
+FIRST and an inline `<fruitTypes><fruitType .../></fruitTypes>` block SECOND, the second element is silently ignored
+(game log then shows the 25 stock fruits load and e.g. MEADOW never registers → meadow foliage inert/unmowable).
+Correct pattern (what gen_configs.py emits now):
+```xml
+<fruitTypes>
+    <fruitType filename="$data/foliage/meadow/meadowUS/meadowUS.xml" />
+</fruitTypes>
+<fruitTypeCategories>
+    <fruitTypeCategory name="MOWER">MEADOW</fruitTypeCategory>
+</fruitTypeCategories>
+```
+MOWABILITY = MOWER-category membership (stock MOWER lacks MEADOW; mapUS/Back Roads add it exactly like this).
+Verify on load: `Loaded fruit type 'MEADOW'` in log.txt.

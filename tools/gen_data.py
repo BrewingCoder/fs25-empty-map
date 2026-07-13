@@ -9,7 +9,7 @@ import numpy as np
 import binfmt
 
 FIELD_HALF = 500          # 100 ha = 1000 x 1000 m field, centred on the origin
-WHEAT = 6 | (7 << 5)      # fruits packed value: typeIdx 6 (wheat, 0-BASED FoliageType index) | state 7 = 230
+WHEAT = (6 << 5) | 7      # typeIdx is the HIGH channels (value>>5), state the LOW. wheat=FoliageType idx6 -> (6<<5)|7=199
 GROUND_SOWN = 7           # terrainDetail groundType 7 = sown (tilled dirt under the crop)
 
 
@@ -28,13 +28,17 @@ def build(cfg, data_dir):
     binfmt.uniform_weight(P("grass_weight.png"), cfg.weight_res, 255)    # grass01 covers the map
     binfmt.uniform_weight(P("blank_weight.png"), cfg.weight_res, 0)      # shared by the other 85 layers (hidden)
 
-    # densities (density_res^2). ground + fruits carry the 100ha field (workable area = 1 m inset); rest blank.
+    # densities (density_res^2). For STARTER maps, ground + fruits carry the 100ha field (workable area = 1 m inset);
+    # conversions (cfg.starter_field=False) leave them blank so the real map's own densities aren't polluted.
     wa = _sq(N, M, FIELD_HALF, inset_m=1)
-    ground = np.zeros((N, N), np.uint16); ground[wa, wa] = GROUND_SOWN
+    ground = np.zeros((N, N), np.uint16)
+    fruits = np.zeros((N, N), np.uint16)
+    if cfg.starter_field:
+        ground[wa, wa] = GROUND_SOWN
+        fruits[wa, wa] = WHEAT
     binfmt.paint_gdm(P("densityMap_ground.gdm"), N, ground, 11, 1, 0)
     binfmt.blank_gdm(P("densityMap_height.gdm"), N, 12, 2, 0, range_splits=(6,))   # 2-range split at 6
     binfmt.blank_gdm(P("densityMap_groundFoliage.gdm"), N, 4, 1, 0)
-    fruits = np.zeros((N, N), np.uint16); fruits[wa, wa] = WHEAT
     binfmt.paint_gdm(P("densityMap_fruits.gdm"), N, fruits, 10, 2, 5, range_splits=(5,))   # split at 5, ntic 5
     binfmt.blank_gdm(P("densityMap_weed.gdm"), N, 4, 1, 0)
     binfmt.blank_gdm(P("densityMap_stones.gdm"), N, 3, 1, 0)
@@ -48,5 +52,13 @@ def build(cfg, data_dir):
     for nm in ("indoorMask", "navigationCollision", "tipCollision", "tipCollisionGenerated",
                "placementCollision", "placementCollisionGenerated"):
         binfmt.blank_grle(P(f"infoLayer_{nm}.grle"), R[nm])
+
+    # field-work LEVEL maps - blank (value 0 = un-fertilized/limed/plowed on a fresh map). Referenced by our
+    # map-local config/fieldGround.xml (gen_configs). Channel counts MUST match fieldGround.xml: spray/lime
+    # levels = 2 channels (0/1/2 = 0%/50%/100%), plow/stubble/roller = 1 channel. Missing these = spray/fertilize
+    # contracts stuck at 0% + no fertilizer harvest bonus (map falls back to mapUS's level maps). fs25-empty-map#1.
+    for nm, ch in (("sprayLevel", 2), ("limeLevel", 2), ("plowLevel", 1),
+                   ("stubbleShredLevel", 1), ("rollerLevel", 1)):
+        binfmt.blank_grle(P(f"infoLayer_{nm}.grle"), R[nm], ch)
 
     print(f"gen_data: {cfg.title} - DEM {cfg.dem_res}^2, densities {N}^2, 100ha wheat field -> {data_dir}")

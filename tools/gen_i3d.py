@@ -201,6 +201,24 @@ def build(cfg, out_i3d):
     sub(scene, "Camera", name="persp", translation="0 60 0", rotation="-30 0 0", visibility="false",
         nodeId=nid(), fov="60", nearClip="0.1", farClip="10000", orthographicHeight="2200")
     build_terrain(cfg, scene)
+    if not cfg.micro_displacement:
+        # Kill washboard/diamond corrugation on non-flat terrain WITHOUT breaking the tire-track/snow systems.
+        # The corrugation comes from the PER-LAYER micro-tessellation attrs (`displacementMaxHeight` /
+        # `displacementScale` on each <Layer>/<OverlayLayer>/<DistanceTexture>) - those are always-on per-texture
+        # noise, so we zero them. We do NOT touch the two structural layer maxHeights:
+        #   - `terrainDetailHeight` (DetailLayer) maxHeight=4  -> fill/height data; tireTrackSystem + SnowSystem read
+        #     it (zeroing it => SnowSystem.updateSnowShader divide-by-zero every frame).
+        #   - `terrainDisplacement` (DisplacementLayer) maxHeight=0.2 -> the runtime rut/track displacement; the
+        #     engine's tireTrackSystem needs it > 0 to initialize (else g_currentMission.tireTrackSystem stays nil and
+        #     ANY mow/drive/plow floods `DensityMapHeightUtil:… tireTrackSystemId` errors and FREEZES the game).
+        # Both are driven by the (blank) densityMap_height, which adds 0 height everywhere -> no visible corrugation.
+        terr = next(x for x in scene.iter("TerrainTransformGroup"))
+        for el in terr.iter():
+            if el is terr:
+                continue
+            for a in ("displacementMaxHeight", "displacementScale"):
+                if el.get(a) not in (None, "0"):
+                    el.set(a, "0")
     sub(scene, "Camera", name="cameraOverView", translation="0 7300 0", rotation="-90 0 0", nodeId=nid(),
         fov="60", nearClip="0.1", farClip="10000", orthographicHeight="1")
     # spawn point. Registers via onCreate=Mission00.onCreateStartPoint (added below). WITHOUT it the game finds no
@@ -209,32 +227,36 @@ def build(cfg, out_i3d):
     sub(scene, "TransformGroup", name="careerStartPoint", translation="0 32 0", rotation="0 0 0", nodeId=csp_id)
     sub(scene, "TransformGroup", name="gameplay", nodeId=nid())   # empty container
 
-    # 100ha owned wheat field, dead centre: a 1000x1000 m square. The 'fields' group registers via FieldUtil.onCreate;
-    # field1 carries the field attributes. polygonPoints = the 4 corners (relative to field1); the nameIndicator
-    # (child index 1) doubles as the teleport indicator. The workable ground + wheat + farmland-1 parcel over it are
-    # painted by gen_data so the player owns a planted field at start.
-    fields_id = nid()
-    fields_grp = sub(scene, "TransformGroup", name="fields", nodeId=fields_id)
-    field1_id = nid()
-    field1 = sub(fields_grp, "TransformGroup", name="field1", translation="0 32 0", nodeId=field1_id)
-    pp = sub(field1, "TransformGroup", name="polygonPoints", nodeId=nid())
-    for x, z in ((-500, -500), (500, -500), (500, 500), (-500, 500)):
-        sub(pp, "TransformGroup", name="p", translation=f"{x} 0 {z}", nodeId=nid())
-    sub(field1, "TransformGroup", name="nameIndicator", translation="0 0 0", nodeId=nid())
+    # 100ha owned wheat field, dead centre (STARTER maps ONLY - cfg.starter_field). A conversion sets
+    # starter_field=False so the engine injects NO placeholder field; the real map supplies its own fields + crops.
+    # field1 carries the field attributes; polygonPoints = the 4 corners; nameIndicator (child 1) doubles as teleport.
+    field1_id = None
+    if cfg.starter_field:
+        fields_id = nid()
+        fields_grp = sub(scene, "TransformGroup", name="fields", nodeId=fields_id)
+        field1_id = nid()
+        field1 = sub(fields_grp, "TransformGroup", name="field1", translation="0 32 0", nodeId=field1_id)
+        pp = sub(field1, "TransformGroup", name="polygonPoints", nodeId=nid())
+        for x, z in ((-500, -500), (500, -500), (500, 500), (-500, 500)):
+            sub(pp, "TransformGroup", name="p", translation=f"{x} 0 {z}", nodeId=nid())
+        sub(field1, "TransformGroup", name="nameIndicator", translation="0 0 0", nodeId=nid())
 
     # Register special scene nodes with FS25 via onCreate scriptCallback UserAttributes - THIS is how the game finds
     # the sun / spawn point / field system (not by name or scene position).
     uas = sub(root, "UserAttributes")
-    for node_id, cb in ((sun_id, "Environment.onCreateSunLight"), (csp_id, "Mission00.onCreateStartPoint"),
-                        (fields_id, "FieldUtil.onCreate")):
+    callbacks = [(sun_id, "Environment.onCreateSunLight"), (csp_id, "Mission00.onCreateStartPoint")]
+    if cfg.starter_field:
+        callbacks.append((fields_id, "FieldUtil.onCreate"))
+    for node_id, cb in callbacks:
         ua = sub(uas, "UserAttribute", nodeId=node_id)
         sub(ua, "Attribute", name="onCreate", type="scriptCallback", value=cb)
     # field1's own attributes (missionAllowed lets contracts spawn; indices point at its polygonPoints/nameIndicator)
-    fua = sub(uas, "UserAttribute", nodeId=field1_id)
-    for nm, ty, val in (("angle", "float", "0"), ("missionAllowed", "boolean", "true"),
-                        ("missionOnlyGrass", "boolean", "false"), ("nameIndicatorIndex", "string", "1"),
-                        ("polygonIndex", "string", "0"), ("teleportIndicatorIndex", "string", "1")):
-        sub(fua, "Attribute", name=nm, type=ty, value=val)
+    if cfg.starter_field:
+        fua = sub(uas, "UserAttribute", nodeId=field1_id)
+        for nm, ty, val in (("angle", "float", "0"), ("missionAllowed", "boolean", "true"),
+                            ("missionOnlyGrass", "boolean", "false"), ("nameIndicatorIndex", "string", "1"),
+                            ("polygonIndex", "string", "0"), ("teleportIndicatorIndex", "string", "1")):
+            sub(fua, "Attribute", name=nm, type=ty, value=val)
 
     # now emit <Files> in registration order
     for fn in R.order:

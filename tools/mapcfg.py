@@ -10,12 +10,15 @@ block, the foliage system) and absolute-metre things (the 100ha field, the sun, 
 class Cfg:
     UNITS_PER_PIXEL = 2
 
-    def __init__(self, map_m, name, tag):
+    def __init__(self, map_m, name, tag, mod=None, title=None, i3d=None, starter_field=True, micro_displacement=False):
         self.map_m = map_m                                   # 8192 (16x) / 4096 (4x); map.xml width/height
         self.name = name                                     # "Empty16x" - map id
-        self.mod = f"FS25_{name}"                            # FS25_Empty16x - mod folder
-        self.i3d = f"{name.lower()}.i3d"                     # empty16x.i3d
-        self.title = f"Empty {tag}"                          # "Empty 16x"
+        self.mod = mod or f"FS25_{name}"                     # mod folder (override for conversions, e.g. FS25_WildWest_16x)
+        self.i3d = i3d or f"{name.lower()}.i3d"              # empty16x.i3d (override to reuse a source i3d name)
+        self.title = title or f"Empty {tag}"                 # "Empty 16x" (override with the real map title)
+        self.starter_field = starter_field                   # starters get the 100ha placeholder field; conversions=False
+        self.micro_displacement = micro_displacement         # FS25 terrain-layer displacement. OFF by default: we never
+        #   populate the FS25 height-detail density, so it corrugates any non-flat terrain (washboard/diamond bumps).
         self.dem_res = map_m // self.UNITS_PER_PIXEL + 1     # 4097 for 8192 (patch edges share -> +1)
         self.weight_res = min(map_m, 8192)                   # 1 px/m, CAP 8192^2 (West End 64x keeps weights 8192^2)
         # 2 px/m, but CAPPED at 16384^2. Larger density textures OOM the GPU: a 64x at 32768^2 crashed with
@@ -28,7 +31,12 @@ class Cfg:
         self.il_res = {"indoorMask": d, "tipCollision": d, "tipCollisionGenerated": d,
                        "navigationCollision": d // 2,
                        "placementCollision": d // 4, "placementCollisionGenerated": d // 4,
-                       "farmland": d // 4, "fieldType": d // 4}
+                       "farmland": d // 4, "fieldType": d // 4,
+                       # field-work LEVEL maps (fertilizer/lime/plow/roller/stubble). Same res as fieldType.
+                       # Required for spray/fertilize contracts + the fertilizer harvest bonus to work; without
+                       # our own, map.xml falls back to mapUS's mismatched level maps. See fs25-empty-map#1.
+                       "sprayLevel": d // 4, "limeLevel": d // 4, "plowLevel": d // 4,
+                       "stubbleShredLevel": d // 4, "rollerLevel": d // 4}
 
 
 CFG16 = Cfg(8192, "Empty16x", "16x")

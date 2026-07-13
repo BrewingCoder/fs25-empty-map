@@ -44,3 +44,24 @@ adding the split byte makes our blank height GDM byte-identical in header + exac
 binfmt.blank_gdm(path, mapsize=16384, num_channels=11, num_ranges=1, num_type_index_channels=0)
 ```
 We generate the header + empty chunks from scratch — **never** from another map's `.gdm` as a template.
+
+## Fruits-multilayer VALUES: read them from the ENGINE, never derive them (solved 2026-07-06)
+The per-pixel value of the fruits `FoliageMultiLayer` gdm (`densityMap_fruits.gdm`, 10ch / 5 typeIndexChannels on
+mapUS-family maps) is **NOT** `(fmlChildIndex << 5) | stateValue` under ANY convention. All of these were tried and
+disproven on Wild West: child index, child+1 (= the fruitTypeManager `terrainDataPlaneIndex`, which IS real but is
+not the on-disk field), "skip waterPlants", state = XML channel-pattern comment, state = ordinal. The engine packs
+foliage types into shared type-slots with per-layer state sub-ranges/shifts that no data file spells out
+(e.g. Wild West: meadow@harvestReady = **131**, grass@harvestReady = **134** — same high bits, different packed state).
+
+**Ground truth sources (either works):**
+1. **GIANTS Editor Foliage panel**: pick Foliage Layer + Layer State — the checked "Foliage Channels" boxes are the
+   BITS of the on-disk value (value = Σ 2^channel). Verified by GE-painting meadow@harvestReady and byte-diffing the
+   saved gdm (exactly one new value, 131).
+2. **Headless engine dump** (`wild-west-fs25/tools/dump_foliage_values.py`): enumerates layers (FML children in the
+   i3d) + states (`<foliageState name>` in each layer's foliage XML — $data or mod-local), then a flag-gated GE
+   script writes every (layer, state) into test cells via `getTerrainDataPlaneByName` + `DensityMapModifier`
+   (the ENGINE does the packing), saves to a scratch gdm, and Python decodes the cells → `foliage_values.json`.
+
+The layer/state NAMES in GE's dropdowns come from exactly those files (i3d FML `FoliageType name=` + foliage XML
+`<foliageState name>`), so the enumeration is fully map-agnostic — custom maps that override layers with their own
+foliage XMLs enumerate the same way. See `wild-west-fs25/docs/CONVERSION.md` (ground_cover) for the full saga.
